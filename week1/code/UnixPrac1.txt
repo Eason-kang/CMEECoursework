@@ -1,1 +1,4 @@
-mvmv 
+wc -l ../data/*.fasta
+cat ../data/E.coli.fasta | tail -n +2
+tail -n +2 ../data/E.coli.fasta | wc -cat
+tail -n +2 ../data/E.coli.fasta | tr -d "\n" | grep -o ATGC | wc -l
