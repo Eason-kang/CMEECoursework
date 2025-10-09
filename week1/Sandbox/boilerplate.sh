@@ -30,3 +30,5 @@ echo 'you entered' $a 'and' $b '; Their sum is:'
 MY_SUM=$(expr $a + $b)
 echo $MY_SUM
 name="hello alice"
+
+alice
