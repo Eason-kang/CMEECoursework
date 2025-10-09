@@ -1,10 +1,10 @@
 #1 count lines
 wc -l ../data/*.fasta
-#2 
+#2 skip the header and print lines
 cat ../data/E.coli.fasta | tail -n +2
-#3
+#3 length excluding header
 tail -n +2 ../data/E.coli.fasta | wc -cat
-#4
+#4 count ATGC
 tail -n +2 ../data/E.coli.fasta | tr -d "\n" | grep -o ATGC | wc -l
-#5
-awk '/^>/{next}{s=toupper($0);AT+=gsub(/[AT]/,"",s);GC+=gsub(/[GC]/,"",s)}END{if(GC==0)print"NA";else printf("%.6f\n",AT/GC)}' ../data/E.coli.fasta
+#5 counts individual A or T characters and counts individual G or C characters then compute (A+T)/(G+C)
+result=$(echo "scale=6; $(tail -n +2 ../data/E.coli.fasta | tr -d '\n' | grep -o '[AT]' | wc -l)/$(tail -n +2 ../data/E.coli.fasta |  tr -d '\n' | grep -o '[GC]' | wc -l)" | bc); echo $result
