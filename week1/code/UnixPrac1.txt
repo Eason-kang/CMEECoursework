@@ -1,4 +1,10 @@
+#1 count lines
 wc -l ../data/*.fasta
+#2 
 cat ../data/E.coli.fasta | tail -n +2
+#3
 tail -n +2 ../data/E.coli.fasta | wc -cat
+#4
 tail -n +2 ../data/E.coli.fasta | tr -d "\n" | grep -o ATGC | wc -l
+#5
+awk '/^>/{next}{s=toupper($0);AT+=gsub(/[AT]/,"",s);GC+=gsub(/[GC]/,"",s)}END{if(GC==0)print"NA";else printf("%.6f\n",AT/GC)}' ../data/E.coli.fasta
