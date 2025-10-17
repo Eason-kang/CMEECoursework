@@ -5,4 +5,6 @@ The Bootcamp pritace includes shell scripts,python and R.
 including code data Sandbox and results
 ### week1
 Focusing on basic UNIX programming practice and shell scripting exercises.
+### week2
+python programming exericse
 
