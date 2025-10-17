@@ -8,7 +8,7 @@ birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
 # Birds is a tuple of tuples of length three: latin name, common name, mass.
 # write a (short) script to print these on a separate line or output block by
 # species 
-# 
+#ls
 # A nice example output is:
 for latin, common, mass in birds:
     print(f"Latin name: {latin} Common name: {common} Mass: {mass}")

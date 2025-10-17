@@ -1,0 +1,6 @@
+Best alignment (short onto long):
+.......CAATTCGGAT
+.......-*-*-***-
+ATCGCCGGATTACGGG
+Start position: 7
+Best score: 5
