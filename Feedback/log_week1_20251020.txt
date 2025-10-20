@@ -160,8 +160,8 @@ tabtocsv.sh: line 10: usage: command not found
 FEEDBACK SUMMARY
 ======================================================================
 
-Scripts tested: 6
-Scripts successful: 4
+Scripts tested: 3
+Scripts successful: 1
 Scripts with errors: 2
 Warnings/Notes: 1
 
