@@ -1,0 +1,1335 @@
+======================================================================
+AUTOMATED FEEDBACK LOG
+======================================================================
+
+HOW TO READ THIS FEEDBACK:
+--------------------------
+1. This log contains detailed feedback on your code execution
+2. Each script is tested and results are shown with output and errors
+3. IMPORTANT: Read all the way to the END for a summary and debugging guidance
+4. The summary at the end will help you understand and fix any issues
+5. Scripts are run in a headless environment (no GUI applications)
+
+======================================================================
+
+Starting testing for Zhiquan Kang
+
+Processing week 2
+
+Your current Git repo size is about 1.40 MiB on disk
+
+Found directories: .git, week1, week2, Feedback
+Found files: .gitignore, README.md
+
+Processing week 2: week2
+
+Found 21 code files to test.
+
+Note: Expected file checking not performed (no FileList provided).
+Expected file checking will only be performed during final assessment.
+
+======================================================================
+Script: MyExampleScript.py
+
+Contents:
+
+**********
+def foo(x):
+    x *= x # same as x = x*x
+    print(x)
+
+foo(2)
+**********
+
+Output (first 500 chars):
+
+**********
+4
+
+**********
+No errors.
+======================================================================
+Script: lc2.py
+
+Contents:
+
+**********
+# Average UK Rainfall (mm) for 1910 by month
+# http://www.metoffice.gov.uk/climate/uk/datasets
+rainfall = (('JAN',111.4),
+            ('FEB',126.1),
+            ('MAR', 49.9),
+            ('APR', 95.3),
+            ('MAY', 71.8),
+            ('JUN', 70.2),
+            ('JUL', 97.1),
+            ('AUG',140.2),
+            ('SEP', 27.0),
+            ('OCT', 89.4),
+            ('NOV',128.4),
+            ('DEC',142.2),
+           )
+
+# (1) Use a list comprehension to create a list of month,rainfall tuples where
+# the amount of rain was greater than 100 mm.
+ 
+heavy_rain = [ (month, rain) for (month, rain) in rainfall if rain > 100 ]
+print(heavy_rain)
+
+# (2) Use a list comprehension to create a list of just month names where the
+# amount of rain was less than 50 mm. 
+
+light_rain_months = [ month for (month, rain) in rainfall if rain < 50 ]
+print(light_rain_months)
+
+# (3) Now do (1) and (2) using conventional loops (you can choose to do 
+# this before 1 and 2 !). 
+
+heavy_rain = []
+light_rain_months = []
+
+for month, rain in rainfall:
+    if rain > 100:
+        heavy_rain.append((month, rain))
+    if rain < 50:
+        light_rain_months.append(month)
+
+# A good example output is:
+#
+# Step #1:
+# Months and rainfall values when the amount of rain was greater than 100mm:
+# [('JAN', 111.4), ('FEB', 126.1), ('AUG', 140.2), ('NOV', 128.4), ('DEC', 142.2)]
+# ... etc.
+
+
+**********
+
+Output (first 500 chars):
+
+**********
+[('JAN', 111.4), ('FEB', 126.1), ('AUG', 140.2), ('NOV', 128.4), ('DEC', 142.2)]
+['MAR', 'SEP']
+
+**********
+No errors.
+======================================================================
+Script: cfexercise1.py
+
+Contents:
+
+**********
+
+import sys
+
+def foo_1(x):
+    """Return the square root of x"""
+    return x ** 0.5
+
+def foo_2(x, y):
+    """Return the larger of two numbers"""
+    if x > y:
+        return x
+    return y
+
+def foo_3(x, y, z):
+    """Sort the three input values x, y, and z in ascending order, and return the sorted result as a list in ascending order"""
+    if x > y:
+        tmp = y
+        y = x
+        x = tmp
+    if y > z:
+        tmp = z
+        z = y
+        y = tmp
+    return [x, y, z]
+
+def foo_4(x):
+    """Return the factorial of x using a for loop"""
+    result = 1
+    for i in range(1, x + 1):
+        result = result * i
+    return result
+
+def foo_5(x): # a recursive function that calculates the factorial of x
+    """Return the factorial of x using recursion"""
+    if x == 1:
+        return 1
+    return x * foo_5(x - 1)
+     
+def foo_6(x): # Calculate the factorial of x in a different way; no if statement involved
+    """Return the factorial of x using a while loop"""
+    facto = 1
+    while x >= 1:
+        facto = facto * x
+        x = x - 1
+    return facto
+
+def main(argv):
+    
+    #Example function call
+    print(foo_1(25))
+    print(foo_2(5,10))
+    print(foo_3(3,2,1))
+    print(foo_4(10))
+    print(foo_5(10))
+    print(foo_6(5))
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
+**********
+
+Output (first 500 chars):
+
+**********
+5.0
+10
+[2, 1, 3]
+3628800
+3628800
+120
+
+**********
+No errors.
+======================================================================
+Script: cfexercise2.py
+
+Contents:
+
+**********
+def hello_1(x):
+    for j in range(x):
+        if j % 3 == 0:
+            print('hello')
+    print(' ')
+
+hello_1(12)
+
+
+def hello_2(x):
+    for j in range(x):
+        if j % 5 == 3:
+            print('hello')
+        elif j % 4 == 3:
+            print('hello')
+    print(' ')
+
+hello_2(12)
+
+def hello_3(x, y):
+    for i in range(x, y):
+        print('hello')
+    print(' ')
+
+hello_3(3, 17)
+
+
+def hello_4(x):
+    while x != 15:
+        print('hello')
+        x = x + 3
+    print(' ')
+
+hello_4(0)
+
+
+def hello_5(x):
+    while x < 100:
+        if x == 31:
+            for k in range(7):
+                print('hello')
+        elif x == 18:
+            print('hello')
+        x = x + 1
+    print(' ')
+
+hello_5(12)
+
+# while loop with break
+def hello_6(x, y):
+    while x: 
+        print("hello! " + str(y))
+        y += 1 
+        if y == 6:
+            break
+    print(' ')
+
+hello_6 (True, 0)
+**********
+
+Output (first 500 chars):
+
+**********
+hello
+hello
+hello
+hello
+ 
+hello
+hello
+hello
+hello
+ 
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+ 
+hello
+hello
+hello
+hello
+hello
+ 
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+ 
+hello! 0
+hello! 1
+hello! 2
+hello! 3
+hello! 4
+hello! 5
+ 
+
+**********
+No errors.
+======================================================================
+Script: oaks.py
+
+Contents:
+
+**********
+## Finds just those taxa that are oak trees from a list of species
+
+taxa = [ 'Quercus robur',
+         'Fraxinus excelsior',
+         'Pinus sylvestris',
+         'Quercus cerris',
+         'Quercus petraea',
+       ]
+
+def is_an_oak(name):
+    return name.lower().startswith('quercus ')
+
+##Using for loops
+oaks_loops = set()
+for species in taxa:
+    if is_an_oak(species):
+        oaks_loops.add(species)
+print(oaks_loops)
+
+##Using list comprehensions   
+oaks_lc = set([species for species in taxa if is_an_oak(species)])
+print(oaks_lc)
+
+##Get names in UPPER CASE using for loops
+oaks_loops = set()
+for species in taxa:
+    if is_an_oak(species):
+        oaks_loops.add(species.upper())
+print(oaks_loops)
+
+##Get names in UPPER CASE using list comprehensions
+oaks_lc = set([species.upper() for species in taxa if is_an_oak(species)])
+print(oaks_lc)
+
+**********
+
+Output (first 500 chars):
+
+**********
+{'Quercus robur', 'Quercus cerris', 'Quercus petraea'}
+{'Quercus robur', 'Quercus cerris', 'Quercus petraea'}
+{'QUERCUS PETRAEA', 'QUERCUS ROBUR', 'QUERCUS CERRIS'}
+{'QUERCUS PETRAEA', 'QUERCUS ROBUR', 'QUERCUS CERRIS'}
+
+**********
+No errors.
+======================================================================
+Script: dictionary.py
+
+Contents:
+
+**********
+taxa = [ ('Myotis lucifugus','Chiroptera'),
+         ('Gerbillus henleyi','Rodentia',),
+         ('Peromyscus crinitus', 'Rodentia'),
+         ('Mus domesticus', 'Rodentia'),
+         ('Cleithrionomys rutilus', 'Rodentia'),
+         ('Microgale dobsoni', 'Afrosoricida'),
+         ('Microgale talazaci', 'Afrosoricida'),
+         ('Lyacon pictus', 'Carnivora'),
+         ('Arctocephalus gazella', 'Carnivora'),
+         ('Canis lupus', 'Carnivora'),
+        ]
+
+# Write a python script to populate a dictionary called taxa_dic derived from
+# taxa so that it maps order names to sets of taxa and prints it to screen.
+# 
+# An example output is:
+#  
+# 'Chiroptera' : set(['Myotis lucifugus']) ... etc. 
+# OR, 
+# 'Chiroptera': {'Myotis  lucifugus'} ... etc
+
+#### Your solution here #### 
+taxa_dic = {}
+for species, order in taxa:
+    if order not in taxa_dic:
+        taxa_dic[order] = []
+    taxa_dic[order].append(species)
+    
+# Now write a list comprehension that does the same (including the printing after the dictionary has been created)  
+ 
+#### Your solution here #### 
+taxa_dic = {order: {species for species, o in taxa if o == order} 
+            for _, order in taxa}
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+No errors.
+======================================================================
+Script: using_name.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+# Filename: using_name.py
+
+if __name__ == '__main__':
+    print('This program is being run by itself!')
+else:
+    print('I am being imported from another script/program/module!')
+
+print("This module's name is: " + __name__)
+**********
+
+Output (first 500 chars):
+
+**********
+This program is being run by itself!
+This module's name is: __main__
+
+**********
+No errors.
+======================================================================
+Script: basic_io3.py
+
+Contents:
+
+**********
+
+my_dictionary = {"a key": 10, "another key": 11}
+import pickle
+f = open("../sandbox/testp.p","wb")
+pickle.dump(my_dictionary,f)
+f.close()
+
+f = open("../sandbox/testp.p","rb")
+another_dictionary=pickle.load(f)
+f.close()
+
+print(another_dictionary)
+**********
+
+Output (first 500 chars):
+
+**********
+{'a key': 10, 'another key': 11}
+
+**********
+No errors.
+======================================================================
+Script: basic_io1.py
+
+Contents:
+
+**********
+#############################
+# FILE INPUT
+#############################
+# Open a file for reading
+f = open('../sandbox/test.txt', 'r')
+# use "implicit" for loop:
+# if the object is a file, python will cycle over lines
+for line in f:
+    print(line)
+
+# close the file
+f.close()
+
+# Same example, skip blank lines
+f = open('../sandbox/test.txt', 'r')
+for line in f:
+    if len(line.strip()) > 0:
+        print(line)
+
+f.close()
+
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/ZhiquanKang_zk425/week2/code/basic_io1.py", line 5, in <module>
+    f = open('../sandbox/test.txt', 'r')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../sandbox/test.txt'
+
+**********
+======================================================================
+Script: debugme.py
+
+Contents:
+
+**********
+def buggyfunc(x):
+    y = x
+    for i in range(x):
+        try: 
+            y = y-1
+            z = x/y
+        except ZeroDivisionError:
+            print(f"The result of dividing a number by zero is undefined")
+        except:
+            print(f"This didn't work;{x = }; {y = }")
+        else:
+            print(f"OK; {x = }; {y = }, {z = };")
+    return z
+
+buggyfunc(20)
+**********
+
+Output (first 500 chars):
+
+**********
+OK; x = 20; y = 19, z = 1.0526315789473684;
+OK; x = 20; y = 18, z = 1.1111111111111112;
+OK; x = 20; y = 17, z = 1.1764705882352942;
+OK; x = 20; y = 16, z = 1.25;
+OK; x = 20; y = 15, z = 1.3333333333333333;
+OK; x = 20; y = 14, z = 1.4285714285714286;
+OK; x = 20; y = 13, z = 1.5384615384615385;
+OK; x = 20; y = 12, z = 1.6666666666666667;
+OK; x = 20; y = 11, z = 1.8181818181818181;
+OK; x = 20; y = 10, z = 2.0;
+OK; x = 20; y = 9, z = 2.2222222222222223;
+OK; x = 20; y = 8, z = 2.5;
+OK; x = 20; y = 7,
+**********
+No errors.
+======================================================================
+Script: boilerplate.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+
+"""Description of this program or application.
+You can use several lines"""
+
+__appname__ = '[application name here]'
+__author__ = 'ZhiquanKang(zk425@ic.ac.uk)'
+__version__ = '0.0.1'
+__license__ = "License for this code/program"
+
+## imports ##
+import sys # module to interface our program with the operating system
+
+## constants ##
+
+
+## functions ##
+def main(argv):
+    """ Main entry point of the program """
+    print('This is a boilerplate') # NOTE: indented using two tabs or 4 spaces
+    return 0
+
+if __name__ == "__main__": 
+    """Makes sure the "main" function is called from command line"""  
+    status = main(sys.argv)
+    sys.exit("I am exiting right now!")
+**********
+
+Output (first 500 chars):
+
+**********
+This is a boilerplate
+
+**********
+Errors:
+**********
+I am exiting right now!
+
+**********
+======================================================================
+Script: basic_io2.py
+
+Contents:
+
+**********
+# Save the elements of a list to a file
+list_to_save = range(100)
+
+f = open('../sandbox/testout.txt','w')
+for i in list_to_save:
+    f.write(str(i) + '\n') 
+
+f.close()
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+No errors.
+======================================================================
+Script: control_flow.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+
+"""Description of this program or application.
+You can use several lines"""
+
+__appname__ = '[application name here]'
+__author__ = 'Zhiquan Kang (zk425@ic.ac.uk)'
+__version__ = '0.0.1'
+__license__ = "License for this code/program"
+
+## imports ##
+import sys # module to interface our program with the operating system
+
+## constants ##
+
+def even_or_odd(x=0): # if not specified, x should take value 0.
+
+    """Find whether a number x is even or odd."""
+    if x % 2 == 0: #The conditional if
+        return f"{x} is Even!"
+    return f"{x} is Odd!"
+
+def largest_divisor_five(x=120):
+    """Find which is the largest divisor of x among 2,3,4,5."""
+    largest = 0
+    if x % 5 == 0:
+        largest = 5
+    elif x % 4 == 0: #means "else, if"
+        largest = 4
+    elif x % 3 == 0:
+        largest = 3
+    elif x % 2 == 0:
+        largest = 2
+    else: # When all other (if, elif) conditions are not met
+        return f"No divisor found for {x}!" # Each function can return a value or a variable.
+    return f"The largest divisor of {x} is {largest}"
+
+def is_prime(x=70):
+    """Find whether an integer is prime."""
+    for i in range(2, x): #  "range" returns a sequence of integers
+        if x % i == 0:
+            print(f"{x} is not a prime: {i} is a divisor") 
+            return False
+    print(f"{x} is a prime!")
+    return True 
+
+def find_all_primes(x=22):
+    """Find all the primes up to x"""
+    allprimes = []
+    for i in range(2, x + 1):
+        if is_prime(i):
+            allprimes.append(i)
+    print(f"There are {len(allprimes)} primes between 2 and {x}")
+    return allprimes
+      
+def main(argv):
+    print(even_or_odd(22))
+    print(even_or_odd(33))
+    print(largest_divisor_five(120))
+    print(largest_divisor_five(121))
+    print(is_prime(60))
+    print(is_prime(59))
+    print(find_all_primes(100))
+    return 0
+
+if (__name__ == "__main__"):
+    status = main(sys.argv)
+    sys.exit(status)
+**********
+
+Output (first 500 chars):
+
+**********
+22 is Even!
+33 is Odd!
+The largest divisor of 120 is 5
+No divisor found for 121!
+60 is not a prime: 2 is a divisor
+False
+59 is a prime!
+True
+2 is a prime!
+3 is a prime!
+4 is not a prime: 2 is a divisor
+5 is a prime!
+6 is not a prime: 2 is a divisor
+7 is a prime!
+8 is not a prime: 2 is a divisor
+9 is not a prime: 3 is a divisor
+10 is not a prime: 2 is a divisor
+11 is a prime!
+12 is not a prime: 2 is a divisor
+13 is a prime!
+14 is not a prime: 2 is a divisor
+15 is not a prime: 3 is a divisor
+16 is
+**********
+No errors.
+======================================================================
+Script: lc1.py
+
+Contents:
+
+**********
+birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
+          ('Delichon urbica','House martin',19),
+          ('Junco phaeonotus','Yellow-eyed junco',19.5),
+          ('Junco hyemalis','Dark-eyed junco',19.6),
+          ('Tachycineata bicolor','Tree swallow',20.2),
+         )
+
+#(1) Write three separate list comprehensions that create three different
+# lists containing the latin names, common names and mean body masses for
+# each species in birds, respectively. 
+
+latin_names  = [bird[0] for bird in birds]
+common_names = [bird[1] for bird in birds]
+mean_masses  = [bird[2] for bird in birds]
+
+# (2) Now do the same using conventional loops (you can choose to do this 
+# before 1 !). 
+
+latin_names  = []
+common_names = []
+mean_masses  = []
+
+for bird in birds:
+    latin_names.append(bird[0])
+    common_names.append(bird[1])
+    mean_masses.append(bird[2])
+
+# A nice example out out is:
+# Step #1:
+# Latin names:
+# ['Passerculus sandwichensis', 'Delichon urbica', 'Junco phaeonotus', 'Junco hyemalis', 'Tachycineata bicolor']
+# ... etc.
+ 
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+No errors.
+======================================================================
+Script: sysargv.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+
+import sys
+print("This is the name of the script: ", sys.argv[0])
+print("Number of arguments: ", len(sys.argv))
+print("The arguments are: " , str(sys.argv))
+**********
+
+Output (first 500 chars):
+
+**********
+This is the name of the script:  sysargv.py
+Number of arguments:  1
+The arguments are:  ['sysargv.py']
+
+**********
+No errors.
+======================================================================
+Script: oaks_debugme.py
+
+Contents:
+
+**********
+import csv
+import sys
+
+#Define function
+def is_an_oak(name):
+    """
+    Returns True if name starts with 'quercus' (oak genus), allowing for small typos.
+
+    >>> is_an_oak('Quercus robur')
+    True
+    >>> is_an_oak('Fagus sylvatica')
+    False
+    >>> is_an_oak('quercus cerris')
+    True
+    >>> is_an_oak('Quercuss alba')  # small typo
+    True
+    >>> is_an_oak('Querrcus petraea')  # small typo
+    True
+    """
+    name = name.strip().lower()
+    # handle small typos: accept names that start with "quercus" ± one character
+    if name.startswith('quercus'):
+        return True
+    if name.startswith('quercuss') or name.startswith('querrcus'):
+        return True
+    return False
+
+
+def main(argv): 
+    f = open('../data/TestOaksData.csv','r')
+    g = open('../data/JustOaksData.csv','w')
+    taxa = csv.reader(f)
+    csvwrite = csv.writer(g)
+    oaks = set()
+    for row in taxa:
+        print(row)
+        print ("The genus is: ") 
+        print(row[0] + '\n')
+        if is_an_oak(row[0]):
+            print('FOUND AN OAK!\n')
+            csvwrite.writerow([row[0], row[1]])    
+
+    return 0
+    
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
+    status = main(sys.argv)
+
+**********
+
+Output (first 500 chars):
+
+**********
+['Genus', ' species']
+The genus is: 
+Genus
+
+['Quercus', ' robur']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+['Fraxinus', ' excelsior']
+The genus is: 
+Fraxinus
+
+['Pinus', ' sylvestris']
+The genus is: 
+Pinus
+
+['Quercus', ' cerris']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+['Quercus', ' petraea']
+The genus is: 
+Quercus
+
+FOUND AN OAK!
+
+
+**********
+No errors.
+======================================================================
+Script: tuple.py
+
+Contents:
+
+**********
+birds = ( ('Passerculus sandwichensis','Savannah sparrow',18.7),
+          ('Delichon urbica','House martin',19),
+          ('Junco phaeonotus','Yellow-eyed junco',19.5),
+          ('Junco hyemalis','Dark-eyed junco',19.6),
+          ('Tachycineata bicolor','Tree swallow',20.2),
+        )
+
+# Birds is a tuple of tuples of length three: latin name, common name, mass.
+# write a (short) script to print these on a separate line or output block by
+# species 
+#ls
+# A nice example output is:
+for latin, common, mass in birds:
+    print(f"Latin name: {latin} Common name: {common} Mass: {mass}")
+    
+# Latin name: Passerculus sandwichensis Common name: Savannah sparrow Mass: 18.7
+# ... etc.
+**********
+
+Output (first 500 chars):
+
+**********
+Latin name: Passerculus sandwichensis Common name: Savannah sparrow Mass: 18.7
+Latin name: Delichon urbica Common name: House martin Mass: 19
+Latin name: Junco phaeonotus Common name: Yellow-eyed junco Mass: 19.5
+Latin name: Junco hyemalis Common name: Dark-eyed junco Mass: 19.6
+Latin name: Tachycineata bicolor Common name: Tree swallow Mass: 20.2
+
+**********
+No errors.
+======================================================================
+Script: test_control_flow.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+
+"""Description of this program or application.
+You can use several lines"""
+
+__appname__ = '[application name here]'
+__author__ = 'ZhiquanKang (zk425@ic.ac.uk)'
+__version__ = '0.0.1'
+__license__ = "License for this code/program"
+
+## imports ##
+import sys # module to interface our program with the operating system
+import doctest # Import the doctest module
+
+def even_or_odd(x=0):
+    """Find whether a number x is even or odd.
+      
+    >>> even_or_odd(10)
+    '10 is Even!'
+    
+    >>> even_or_odd(5)
+    '5 is Odd!'
+        
+    in case of negative numbers, the positive is taken:    
+    >>> even_or_odd(-2)
+    '-2 is Even!'
+    
+    """
+    #Define function to be tested
+    if x % 2 == 0:
+        return f"{x} is Even!"
+    return f"{x} is Odd!"
+
+def main(argv): 
+    print(even_or_odd(22))
+    print(even_or_odd(33))
+    return 0
+
+if (__name__ == "__main__"):
+    status = main(sys.argv)
+doctest.testmod()   # To run with embedded tests
+**********
+
+Output (first 500 chars):
+
+**********
+22 is Even!
+33 is Odd!
+
+**********
+No errors.
+======================================================================
+Script: loops.py
+
+Contents:
+
+**********
+for i in range(5):
+    print(i)
+
+my_list = [0, 2, "geronimo!", 3.0, True, False]
+for k in my_list:
+    print(k)
+
+total = 0
+summands = [0, 1, 11, 111, 1111]
+for s in summands:
+    total = total + s
+    print(total)
+    
+z = 0
+while z < 100:
+    z = z + 1
+    print(z)
+**********
+
+Output (first 500 chars):
+
+**********
+0
+1
+2
+3
+4
+0
+2
+geronimo!
+3.0
+True
+False
+0
+1
+12
+123
+1234
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+
+**********
+No errors.
+======================================================================
+Script: basic_csv.py
+
+Contents:
+
+**********
+import csv
+
+# Read a file containing:
+# 'Species','Infraorder','Family','Distribution','Body mass male (Kg)'
+with open('../data/testcsv.csv','r') as f:
+
+    csvread = csv.reader(f)
+    temp = []
+    for row in csvread:
+        temp.append(tuple(row))
+        print(row)
+        print("The species is", row[0])
+
+# write a file containing only species name and Body mass
+with open('../data/testcsv.csv','r') as f:
+    with open('../data/bodymass.csv','w') as g:
+
+        csvread = csv.reader(f)
+        csvwrite = csv.writer(g)
+        for row in csvread:
+            print(row)
+            csvwrite.writerow([row[0], row[4]])
+**********
+
+Output (first 500 chars):
+
+**********
+
+**********
+Errors:
+**********
+Traceback (most recent call last):
+  File "/home/mhasoba/Documents/Teaching/IC_CMEE/2025-26/Coursework/StudentRepos/ZhiquanKang_zk425/week2/code/basic_csv.py", line 5, in <module>
+    with open('../data/testcsv.csv','r') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/testcsv.csv'
+
+**********
+======================================================================
+Script: align_seqs.py
+
+Contents:
+
+**********
+#!/usr/bin/env python3
+"""
+align_seq.py
+
+Read two DNA sequences from a single CSV file (default: ../data/DNAseq.csv),
+find the best alignment of the shorter sequence against the longer sequence,
+and write the best alignment and score to ../results/best_alignment.txt.
+
+Run:
+    python align_seq.py
+"""
+
+import os
+import sys
+import csv
+from typing import Tuple, List
+
+INPUT_PATH  = "../data/Twoseqs.csv"        
+OUTPUT_DIR  = "../results"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "best_alignment.txt")
+
+def _clean(seq: str) -> str:
+    """Return an uppercase DNA sequence with whitespace removed."""
+    return "".join(seq.split()).upper()
+
+
+def _read_two_sequences(path: str) -> Tuple[str, str]:
+   
+    sequences: List[str] = []
+    with open(path, newline="") as f:
+        r = csv.reader(f)
+        first = next(r, None)
+        if first is None:
+            raise ValueError("Input CSV is empty.")
+
+        header_lc = [c.strip().lower() for c in first]
+        if "sequence" in header_lc:
+            idx = header_lc.index("sequence")
+            for row in r:
+                if len(row) > idx and row[idx].strip():
+                    sequences.append(_clean(row[idx]))
+        else:
+            for cell in first:
+                if cell and cell.strip():
+                    sequences.append(_clean(cell))
+            for row in r:
+                for cell in row:
+                    if cell and cell.strip():
+                        sequences.append(_clean(cell))
+
+   
+    sequences = [s for s in sequences if s]
+    if len(sequences) < 2:
+        raise ValueError("Need at least two sequences in the CSV.")
+    return sequences[0], sequences[1]
+
+
+def calculate_score(long_seq: str, short_seq: str, start: int) -> Tuple[int, str]:
+    overlap = min(len(long_seq) - start, len(short_seq))
+    score = 0
+    matched = []
+    for i in range(overlap):
+        if long_seq[i + start] == short_seq[i]:
+            matched.append("*")
+            score += 1
+        else:
+            matched.append("-")
+    return score, ("." * start) + "".join(matched)
+
+
+def best_alignment(seq1: str, seq2: str) -> Tuple[str, str, str, int, int]:
+    if len(seq1) >= len(seq2):
+        long_seq, short_seq = seq1, seq2
+    else:
+        long_seq, short_seq = seq2, seq1
+
+    best_score = -1
+    best_start = 0
+    best_align = ""
+    best_match = ""
+
+    for start in range(len(long_seq)):
+        if start >= len(long_seq):  # safety
+            break
+        score, match_line = calculate_score(long_seq, short_seq, start)
+        if score >= best_score:     # keep the *last* best, like the original script
+            best_score = score
+            best_start = start
+            best_align = ("." * start) + short_seq
+            best_match = match_line
+
+    return long_seq, best_align, best_match, best_score, best_start
+
+
+def main(argv: List[str]) -> int:
+    try:
+        raw1, raw2 = _read_two_sequences(INPUT_PATH)
+    except FileNotFoundError:
+        print(f"ERROR: Input file not found: {INPUT_PATH}", file=sys.stderr)
+        return 1
+    except Exception as e:
+        print(f"ERROR reading sequences: {e}", file=sys.stderr)
+        return 1
+
+    long_seq, aligned_short, match_line, score, start = best_alignment(raw1, raw2)
+
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    with open(OUTPUT_FILE, "w") as out:
+        out.write("Best alignment (short onto long):\n")
+        out.write(f"{aligned_short}\n")
+        out.write(f"{match_line}\n")
+        out.write(f"{long_seq}\n")
+        out.write(f"Start position: {start}\n")
+        out.write(f"Best score: {score}\n")
+
+    print(f"Wrote best alignment to {OUTPUT_FILE}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
+
+**********
+
+Output (first 500 chars):
+
+**********
+Wrote best alignment to ../results/best_alignment.txt
+
+**********
+No errors.
+
+======================================================================
+FEEDBACK SUMMARY
+======================================================================
+
+Scripts tested: 21
+Scripts successful: 18
+Scripts with errors: 3
+Warnings/Notes: 1
+
+IMPORTANT DEBUGGING GUIDANCE:
+------------------------------
+
+Please review all warnings and errors, and your directory structure based on the above log.
+
+Ask yourself: Why did I not get these warnings or errors on my machine when I tested my code?
+Common reasons for environment differences:
+
+• File paths: Your local machine may have different directory structures
+• Dependencies: Missing packages or different versions
+• File permissions: Scripts may not be executable on the testing server
+• Case sensitivity: Linux systems are case-sensitive (your laptop may not be)
+• Working directory: Scripts may assume they run from a specific location
+• Input files: Required data files may be missing or in wrong locations
+
+Debugging steps:
+1. Test your code in a clean environment (fresh directory)
+2. Check all file paths are relative and correct
+3. Verify all required files are present and properly named
+4. Test on a case-sensitive system if possible
+5. Run your scripts from different directories to check robustness
+
+Fix these issues and test again. Good debugging skills are essential for scientific computing!
+
