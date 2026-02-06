@@ -1,0 +1,13 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"r413"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "r413"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+/var/spool/pbs/mom_priv/jobs/1650109.pbs-7.SC: line 9: Rscript: command not found
