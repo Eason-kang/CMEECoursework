@@ -1,0 +1,173 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{float}
+\begin{document}
+
+
+
+\begin{titlepage}
+\centering
+
+\vspace*{1.8cm}
+
+{\LARGE \textbf{Comparing Quadratic and Logistic Models for Bacterial Growth Curve Analysis}\par}
+
+\vspace{1.8cm}
+
+{\large zhiquan.kang\par}
+{\large Imperial College London\par}
+
+\vspace{1.5cm}
+
+{\large March 12, 2026\par}
+
+\vspace{1.5cm}
+
+{\large \textbf{Word Count: 2653}\par}
+
+\end{titlepage}
+% ---------------- Abstract ----------------
+\section*{Abstract}
+This study evaluated two microbial growth models—the quadratic model and the logistic model—using 4,387 observations from ten data sources. After removing outliers and log-transforming abundance data, each curve was fitted separately.
+
+Models were compared using AIC, AICc, BIC, and pseudo R² values.
+
+The logistic model exhibited higher convergence failure rates due to its symmetric growth assumption but proved more suitable for curves with clear asymptotic lines and biologically plausible saturation points. While the quadratic polynomial model demonstrated greater stability and convergence ease, it lacked biological interpretability and struggled to accurately predict bacterial carrying capacity. Different culture conditions influence model validity; mechanistic models perform better under data-scarce conditions. When data encompass complete growth trajectories, biologically driven growth models offer greater interpretability than simple polynomial baseline models. By conducting such comparisons, we can better understand model limitations and strengths, thereby improving our approaches to microbial growth research.
+
+% ---------------- Introduction ----------------
+\section{Introduction}
+In biological research, studying population growth rates is crucial for understanding ecosystem dynamics and predicting the impact of environmental change. Growth rates determine the speed of biomass accumulation, the rate at which microorganisms occupy new environments, and so on. In batch cultures, microbial population expansion typically follows an S-shaped curve pattern: an initial lag, a rapid growth phase, and then a plateau phase as resource constraints intensify [Zwietering 1990]. However, models can quantitatively summarize growth curves and compare results across different species and experimental conditions; therefore, systematically evaluating the applicability of these models is essential.
+
+Previous studies have proposed various mathematical methods to simulate these growth patterns, but selecting the best-fitting model is not easy. Often, multiple models can fit the same data well, even if they represent different biological processes. This non-uniqueness also complicates interpretation; that is, a good fit does not guarantee that the model structure is biologically appropriate [Johnson Omland 2004]. Phenomenological models are flexible and easy to fit, but their coefficients are difficult to interpret biologically. In contrast, mechanistic models, such as the Logistic model, incorporate biologically relevant parameters (e.g., maximum growth rate and carrying capacity) and better reflect the biological mechanisms driving population growth [Huang 2013].
+
+This paper systematically evaluates phenomenological and mechanistic models for two types of microbial growth data. AICc and BIC are then used to determine which model best fits a set of bacterial growth curves. Two questions are raised: First, when both models fit microbial growth curves, how often does the mechanistic logistic model outperform the quadratic polynomial model? Second, under which types of curves does each model perform better? It is expected that the logistic model will be favored when the curve is clearly close to saturation; while the quadratic model may perform relatively well when only a portion of the growth trajectory is available or the data does not strongly constrain the asymptotes. The goal is to determine which model best fits a set of bacterial growth curves.
+
+% ---------------- Methods ----------------
+\section{Methods}
+
+\subsection{Data}
+I analyzed the microbial population growth dataset \texttt{LogisticGrowthData.csv}, which contains abundance or biomass (\texttt{PopBio}) data repeatedly measured over time (\texttt{Time}) under different experimental conditions. First, I generated unique dataset identifiers (IDs) based on four categorical variables (species, temperature, culture medium, and reference), resulting in 285 unique datasets. To ensure data quality, the data cleaning phase focused on converting the Time and PopBio variables to numerical formats while removing invalid entries. For the Time variable, this included excluding NA values ​​and retaining only positive values; similarly, for the PopBio variable, only positive values ​​were retained to maintain biological significance. After removing negative values ​​and obvious errors, 4,361 observations remained. This data covers a wide variety of microorganisms, providing a diverse basis for growth analysis. The response variable is abundance or biomass, and the predictor variable is time.
+
+During preprocessing, I removed rows with missing or non-finite values in \texttt{Time} or \texttt{PopBio}. I also excluded non-positive \texttt{PopBio} values because the subsequent model-fitting workflow used log-transformed abundance, which requires strictly positive observations. The cleaned data were then sorted by ID and time. Finally, I added a transformed response variable:
+\[
+\texttt{logPopBio} = \log(\texttt{PopBio})
+\]
+which was used as the response in both fitted models.
+
+\subsection{Models}
+I fitted two alternative models to each growth curve.
+
+The first was a quadratic polynomial model,
+\[
+\log N(t) = \beta_0 + \beta_1 t + \beta_2 t^2 ,
+\]
+where \(N(t)\) is abundance or biomass at time \(t\), and \(\beta_0\), \(\beta_1\), and \(\beta_2\) are fitted coefficients. This model is phenomenological: it can describe curvature in the data but does not explicitly impose a biologically meaningful upper limit.
+
+The second was a logistic growth model. In its standard form,
+\[
+N(t) = \frac{N_0 K e^{rt}}{K + N_0(e^{rt}-1)},
+\]
+where \(N_0\) is the initial abundance, \(K\) is the asymptotic abundance, and \(r\) is the intrinsic growth-rate parameter. Because I fitted the data on the log scale, the model entered the fitting routine as
+\[
+\log N(t) = \log \left( \frac{N_0 K e^{rt}}{K + N_0(e^{rt}-1)} \right).
+\]
+This model is mechanistic in the sense that it explicitly represents saturating growth toward an upper bound.
+
+\subsection{Model fitting}
+
+For each unique ID, I fitted a quadratic model using ordinary least squares via the \texttt{lm} function. For the logistic model, nonlinear least-squares fitting was performed using the Levenberg--Marquardt algorithm implemented in the \texttt{nlsLM} function from the \texttt{minpack.lm} package. Multiple random initial values were employed to improve robustness in nonlinear fitting and to reduce the risk of convergence to local optima. Candidate initial values for \(r\), \(K\), and \(N_0\) were selected from the data range of each curve, and the fitting result with the lowest AICc value among successful runs was retained.
+
+Model performance varied with culture conditions and the number of observations. Consequently, I omitted curves with insufficient numbers of unique time points for reliable fitting. This reflects the general problem that when the number of observations is too small relative to the number of fitted parameters, model fitting becomes unstable and may fail to capture the growth characteristics of microorganisms under different environmental conditions.
+
+\subsection{Model Comparison}
+
+I compared the two fitted models using AIC, AICc, BIC, and pseudo-\(R^2\). AIC and BIC reward goodness of fit while penalising model complexity, whereas AICc provides an additional correction for small sample sizes \citep{BurnhamAnderson2004}. Lower AIC, AICc, and BIC values indicate stronger model support. I also calculated pseudo-\(R^2\) on the logarithmic scale using the following formula:
+
+\[
+R^2 = 1 - \frac{SS_{\mathrm{res}}}{SS_{\mathrm{tot}}},
+\]
+
+where \(SS_{\mathrm{res}}\) denotes the residual sum of squares and \(SS_{\mathrm{tot}}\) denotes the total sum of squares for \texttt{logPopBio}. For each ID, I recorded the best-supported model selected by AICc and by BIC.
+
+\subsection{Computational Tools}
+
+I performed the analytical workflow primarily in \textbf{R}. Data processing and cleaning were carried out using the \texttt{tidyverse} suite; nonlinear fitting used the \texttt{minpack.lm} package; and AICc calculations used the \texttt{MuMIn} package. Final outputs, including plots and summary statistics, were generated using \texttt{ggplot2} and associated \texttt{tidyverse} tools. I integrated the workflow into a final bash script so that data preprocessing, model fitting, result plotting, and goodness-of-fit comparisons could be run from a single command. During development, \textbf{Python} was used for rapid checking of intermediate files and file paths, but the final reported analyses were completed in R. The report itself was written in \LaTeX{}, and references were managed using Bib\TeX{}.
+
+
+
+
+% ---------------- Results ----------------
+\section{Results}
+
+\subsection{Overall Comparison of Quadratic and Logistic Models}
+
+The comparison of the two models shows that model support varies across different growth curves, rather than pointing to a single, universally best fit. Overall, the quadratic model is easier to fit because it does not require nonlinear optimisation and does not impose an upper asymptote.
+
+Although the quadratic model effectively captures local curvature, it lacks a biologically meaningful asymptote and may suggest unrealistic trajectories beyond the observed time range. In contrast, the logistic model constrains growth near a maximum value and therefore often yields more biologically interpretable fits. This trade-off between flexibility and interpretability lies at the core of the comparison.
+
+\begin{figure}[H]
+\centering
+\IfFileExists{best_model_counts_barplot.png}{
+    \includegraphics[width=0.78\textwidth]{best_model_counts_barplot.png}
+}{
+    \fbox{\parbox[c][6cm][c]{0.78\textwidth}{\centering
+    Upload \texttt{best\_model\_counts\_barplot.png} to show the AICc/BIC best-model counts figure.}}
+}
+\caption{Number of growth curves for which each model was selected as best by AICc and BIC. This figure summarises the frequency with which the quadratic and logistic models were favoured across all fitted IDs.}
+\label{fig:bestmodels}
+\end{figure}
+
+\subsection{Representative Fitted Curves}
+
+A representative example further illustrates the differences between the two models. As shown in Figure~\ref{fig:repfits}, for curves that rise sharply and then flatten, the logistic model often tracks the observed pattern and remains biologically interpretable. For curves covering only the early or middle stages of growth, quadratic models can perform similarly well because the asymptote is less constrained by the available data.
+
+Visual inspection suggests that logistic models are most effective when the data contain enough of the trajectory to identify an asymptote. When the final plateau phase is absent or weak, logistic models may perform less well because different combinations of \(r\), \(K\), and \(N_0\) can generate similar fits within the observed range. In these cases, quadratic models can often serve as a practical alternative.
+
+\begin{figure}[H]
+\centering
+\IfFileExists{representative_best_fits.png}{
+    \includegraphics[width=\textwidth]{representative_best_fits.png}
+}{
+    \fbox{\parbox[c][6cm][c]{0.9\textwidth}{\centering
+    Upload \texttt{representative\_best\_fits.png} to show representative examples of quadratic and logistic fits.}}
+}
+\caption{Representative microbial growth curves fitted with the quadratic and logistic models. Black points show observed log-transformed abundance, and coloured lines show fitted values. These examples illustrate conditions under which each model can be favoured.}
+\label{fig:repfits}
+\end{figure}
+\subsection{Goodness of Fit}
+
+Pseudo-\(R^2\) values were high for many IDs under both models, indicating that both could describe a substantial proportion of the variation in \texttt{logPopBio}. However, \(R^2\) alone did not fully distinguish model quality, because it does not penalise complexity or reward biological realism. The information criteria therefore provided a more informative comparison. In particular, AICc was useful for shorter growth curves, where sample size was limited relative to the number of fitted parameters.
+
+The mean model-summary statistics further supported the same conclusion as the best-model counts. Across fitted IDs, the logistic model achieved a higher mean pseudo-\(R^2\) and lower mean AIC, AICc, and BIC than the quadratic model, indicating that it generally provided a better balance between fit quality and model complexity.
+
+\begin{table}[H]
+\centering
+\caption{Mean model-performance statistics across fitted growth curves. Higher pseudo-\(R^2\) and lower information-criterion values indicate better performance.}
+\label{tab:placeholder}
+\begin{tabular}{lcccc}
+\toprule
+Model & Mean \(R^2\) & Mean AIC & Mean AICc & Mean BIC \\
+\midrule
+Logistic  & 0.924 & -39.08 & -34.75 & -37.55 \\
+Quadratic & 0.851 & -24.66 & -20.24 & -23.21 \\
+\bottomrule
+\end{tabular}
+\end{table}
+% ---------------- Discussion ----------------
+\section{Discussion}
+
+This paper compares microbial growth curves based on the \texttt{LogisticGrowthData.csv} dataset and contrasts simple quadratic models with mechanistic logistic models. The main conclusion is that model selection largely depends on the degree to which the growth trajectory is presented in the data. Quadratic models are easy to fit and generally perform well within a finite time window, but they lack mechanistic explanation and cannot explicitly represent saturation. Logistic models are biologically more informative, but they are better suited for growth curves that clearly contain asymptotes close to the upper limit.
+
+This result aligns with the principle of ecological model selection, which considers not only model fit but also its applicability to the biological process under study (Ana-Hermina Ghenu et al., 2022). Our findings indicate that the logistic model holds potential when growth genuinely reaches saturation, as its parameters correspond to biologically meaningful features in the curve. On the other hand, quadratic models primarily serve descriptive purposes. Like many linear models, while they achieve stable convergence, they are often purely mathematical constructs that fail to accurately capture the plateau phase of microbial growth curves. Furthermore, in our fitted data, the predicted growth trend exhibited a decline over extended time scales, rendering it biologically unsignificant.
+
+This comparison also highlights a practical problem with microbial growth data. Many datasets cannot capture the complete lag-exponential-stationary sequence with equal accuracy. When only the rising portion of the curve is observed, the carrying capacity parameter in the logistic model is difficult to estimate robustly. This is not necessarily a flaw in the model itself, but often a limitation of the available data. In such cases, even if the empirical model is biologically weak, its information criterion may perform well.
+
+The dataset cannot guarantee consistent accuracy for the observed lag-exponential-stationary sequence. When only the ascending portion of the curve is observed, the logistic model struggles to provide robust estimates, clearly demonstrating how data-driven limitations can compromise model predictions. Berthold Haussler, Bohumil F. Dube, and Michal H. Brabec examined the simple logistic growth model, widely used to assess microbial growth. They examined how growth rates can be determined when data from the logistic plateau phase are missing, exploring the impact of partial data on information criteria and parameter estimates. Comparing parameter identifiability between complete and partial curves, they highlighted challenges in estimating carrying capacity under incomplete data and measurement noise. Their analysis revealed that such data not only affect parameter estimation but also alter the information criterion values of different models fitted to the data. When only early-curve data are available, while growth rates can be determined, carrying capacity remains difficult to establish. This may lead to poorly fitted or biologically unreasonable models that, despite fitting the data well, provide misleading information. Even when time cannot be precisely measured, growth rates in early datasets remain indeterminable. When the logistic plateau phase is indistinct, a common data collection strategy involves recording data during the early growth phase and submitting the fitted model for analysis.
+This study's comparison of only two models has limitations. First, certain nonlinear models—such as the Gompertz model, Baranyi model, or three-phase model—can more comprehensively address lag periods and asymmetric trajectories [Marie Pla et al., 2015]. However, even theoretically more mechanistically grounded models like the Baranyi model perform poorly when lag data is insufficient. Second, to enhance comparability and numerical stability, all curves were log-transformed prior to fitting. This approach may introduce additional fitting errors.
+
+Despite these limitations, this study concludes that simple polynomials serve as useful benchmarks, particularly for certain curves. However, mechanism-based models are preferable when biological questions involve population growth processes rather than merely curve shapes. Simple phenomenological models facilitate description, while mechanism-based models offer stronger interpretability and more reliable scientific inference when their assumptions hold [Motulsky Christopoulos 2004]. Future research could extend comparisons to other nonlinear models or investigate whether model support varies with temperature, taxonomy, or culture medium. To enhance the reliability and biological relevance of microbial growth predictions, efforts should integrate more comprehensive data collection, robust parameter estimation methods, and transparent model comparison strategies.
+% ---------------- Conclusion ----------------
+\section{Conclusion}
+This study compared the application of quadratic polynomial models versus logistic growth models in microbial population growth curves. The quadratic model proved flexible and stable, suitable for incomplete or saturated growth trajectories, yet it lacks biological significance. Conversely, the logistic model provides a more biologically meaningful description of saturated growth processes and offers greater interpretive value when data are sufficient. In summary, data quality and completeness are crucial for reliable estimation of key parameters.
+
+\end{document}

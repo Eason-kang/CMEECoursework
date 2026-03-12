@@ -1,0 +1,1630 @@
+"ID","model","term","estimate"
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Quadratic","(Intercept)",-2.77934942070047
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Quadratic","Time",0.00722771283893388
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-1.48012458932302e-05
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Logistic","r",0.0572228208398898
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Logistic","K",0.123038275961515
+"Acinetobacter.clacoaceticus..RDA.R._15_TSB_1","Logistic","N0",0.0250798091015772
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Quadratic","(Intercept)",-3.39134790652339
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Quadratic","Time",0.0407365092263557
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000259891102341275
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Logistic","r",0.321435140855011
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Logistic","K",0.107152762916896
+"Acinetobacter.clacoaceticus..RDA.R._25_TSB_1","Logistic","N0",0.0115898907951479
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Quadratic","(Intercept)",-3.2126380419852
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Quadratic","Time",0.0357086725399009
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000228937427384374
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Logistic","r",0.42598537625623
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Logistic","K",0.111801261782203
+"Acinetobacter.clacoaceticus..RDA.R._35_TSB_1","Logistic","N0",0.0105116920837206
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Quadratic","(Intercept)",-3.92365788970321
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Quadratic","Time",0.00336981755628989
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Quadratic","I(Time^2)",-3.23137092308611e-06
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Logistic","r",0.0074091474785565
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Logistic","K",0.0478886228315838
+"Acinetobacter.clacoaceticus..RDA.R._5_TSB_1","Logistic","N0",0.0183624040349495
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Quadratic","(Intercept)",-2.10152099101214
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Quadratic","Time",0.00489533288477641
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Quadratic","I(Time^2)",-9.48969394095817e-06
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Logistic","r",0.0692601518367008
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Logistic","K",0.203836330853582
+"Acinetobacter.clacoaceticus.1_15_TSB_1","Logistic","N0",0.0470522242397981
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Quadratic","(Intercept)",-3.03762349649371
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Quadratic","Time",0.0427399827519851
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Quadratic","I(Time^2)",-0.000293497742064375
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Logistic","r",0.326304589008034
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Logistic","K",0.139048374675975
+"Acinetobacter.clacoaceticus.1_25_TSB_1","Logistic","N0",0.0185916924318428
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Quadratic","(Intercept)",-2.75392864419361
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Quadratic","Time",0.0463215574430448
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Quadratic","I(Time^2)",-0.000244524798180981
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Logistic","r",0.360344793852798
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Logistic","K",0.352210156278179
+"Acinetobacter.clacoaceticus.1_35_TSB_1","Logistic","N0",0.0186216398220953
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Quadratic","(Intercept)",-3.73919792056785
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Quadratic","Time",0.00690655991964344
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Quadratic","I(Time^2)",-7.05739804461409e-06
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Logistic","r",0.0119721669883184
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Logistic","K",0.118904644752364
+"Acinetobacter.clacoaceticus.1_5_TSB_1","Logistic","N0",0.018618662606934
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Quadratic","(Intercept)",-3.29933246012769
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Quadratic","Time",0.0136066922054842
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Quadratic","I(Time^2)",-2.68075874536361e-05
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Logistic","r",1.42834572564999
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Logistic","K",0.133343106846993
+"Acinetobacter.clacoaceticus.2_15_TSB_1","Logistic","N0",0.000239694071966392
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Quadratic","(Intercept)",-3.31602067090658
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Quadratic","Time",0.0587016456419985
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Quadratic","I(Time^2)",-0.000398209654224327
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Logistic","r",0.392761774453779
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Logistic","K",0.154592388060745
+"Acinetobacter.clacoaceticus.2_25_TSB_1","Logistic","N0",0.0105577062271888
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Quadratic","(Intercept)",-2.9464131140275
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Quadratic","Time",0.0629081129630734
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Quadratic","I(Time^2)",-0.000444518654480027
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Logistic","r",0.419699775970712
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Logistic","K",0.21754152018146
+"Acinetobacter.clacoaceticus.2_35_TSB_1","Logistic","N0",0.0144606620521167
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Quadratic","(Intercept)",-4.06818639330383
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Quadratic","Time",0.00812783221025913
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Quadratic","I(Time^2)",-8.54960993747954e-06
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Logistic","r",0.0158232613011143
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Logistic","K",0.102552640440562
+"Acinetobacter.clacoaceticus.2_5_TSB_1","Logistic","N0",0.0108536996319812
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.29587019870839
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Quadratic","Time",0.0995315307900916
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000236251690282234
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Logistic","r",0.0727905884868085
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Logistic","K",2685.86222057429
+"Aerobic Mesophilic._10_Cooked Chicken Breast_3","Logistic","N0",0.160546708577856
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Quadratic","(Intercept)",-3.07842109928319
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Quadratic","Time",0.101140692336415
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000245619095241872
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Logistic","r",0.0739598057965418
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Logistic","K",858.270656787904
+"Aerobic Mesophilic._10_Raw Chicken Breast_3","Logistic","N0",0.0808312417341227
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Quadratic","(Intercept)",-3.3807581841749
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Quadratic","Time",0.114127914304594
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000346021115710213
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Logistic","r",0.073894064796597
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Logistic","K",382.031414325615
+"Aerobic Mesophilic._10_Salted Chicken Breast_3","Logistic","N0",0.0914646744048104
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.07875420570503
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Quadratic","Time",0.157496182753241
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000526697762866074
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Logistic","r",0.121190371424561
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Logistic","K",4330.80486931746
+"Aerobic Mesophilic._15_Cooked Chicken Breast_3","Logistic","N0",0.201317361255903
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Quadratic","(Intercept)",-4.07405360244334
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Quadratic","Time",0.226729756095655
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.0011265771471578
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Logistic","r",0.14103095012743
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Logistic","K",1342.51192019665
+"Aerobic Mesophilic._15_Raw Chicken Breast_3","Logistic","N0",0.0727946633737851
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Quadratic","(Intercept)",-3.18099135808324
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Quadratic","Time",0.155211883301963
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000605441128149646
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Logistic","r",0.106908601658851
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Logistic","K",541.307231010793
+"Aerobic Mesophilic._15_Salted Chicken Breast_3","Logistic","N0",0.0986204009758057
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Quadratic","(Intercept)",-0.956462368550284
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Quadratic","Time",0.156530047834363
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Quadratic","I(Time^2)",0.000459426252829481
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Logistic","r",2.17270849936297e-10
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Logistic","K",1.50304340398944e-07
+"Aerobic Mesophilic._20_Cooked Chicken Breast_3","Logistic","N0",1230.53506942147
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.94680583519739
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Quadratic","Time",0.303872552384814
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.00225231025985499
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Logistic","r",0.213422342054779
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Logistic","K",646.936053672139
+"Aerobic Mesophilic._20_Raw Chicken Breast_3","Logistic","N0",0.118797203114474
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.280372400617597
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Quadratic","Time",0.0555475660454618
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Quadratic","I(Time^2)",0.00190875119791354
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Logistic","r",0.153195042024238
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Logistic","K",1837201020.13941
+"Aerobic Mesophilic._20_Salted Chicken Breast_3","Logistic","N0",0.305740242279525
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.35101068873079
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Quadratic","Time",0.0177783935709953
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-4.34602119349637e-06
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Logistic","r",0.017764470021531
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Logistic","K",1045.8739189736
+"Aerobic Mesophilic._2_Cooked Chicken Breast_3","Logistic","N0",0.21478582005299
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.50886004377669
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Quadratic","Time",0.0178225842547195
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Quadratic","I(Time^2)",-5.89816534083367e-06
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Logistic","r",0.0168369472314558
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Logistic","K",603.272168157119
+"Aerobic Mesophilic._2_Raw Chicken Breast_3","Logistic","N0",0.210571279135666
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.13725869055503
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Quadratic","Time",0.0150485137653105
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Quadratic","I(Time^2)",-1.94175634395195e-06
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Logistic","r",0.0157246981524702
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Logistic","K",778.685147137205
+"Aerobic Mesophilic._2_Salted Chicken Breast_3","Logistic","N0",0.265429521804207
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Quadratic","(Intercept)",-8.07502059182432
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Quadratic","Time",0.0649672118127951
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-6.17595973179829e-05
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Logistic","r",0.0351618671565968
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Logistic","K",7759.70618687236
+"Aerobic Mesophilic._4_Cooked Chicken Breast_3","Logistic","N0",0.00764161807544461
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.54109608903124
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Quadratic","Time",0.0311127403439707
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Quadratic","I(Time^2)",-2.66774972650689e-05
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Logistic","r",0.0222891893035402
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Logistic","K",523.613562463706
+"Aerobic Mesophilic._4_Raw Chicken Breast_3","Logistic","N0",0.13561404344724
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Quadratic","(Intercept)",-2.25721108749335
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Quadratic","Time",0.0317867604866221
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Quadratic","I(Time^2)",-2.59331364044485e-05
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Logistic","r",0.0230250244977335
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Logistic","K",1156.60909263551
+"Aerobic Mesophilic._4_Salted Chicken Breast_3","Logistic","N0",0.180819229137348
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.03791439137052
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Quadratic","Time",0.0396665244738405
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-7.73429126323517e-06
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Logistic","r",0.0416747602438425
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Logistic","K",9507.76102175627
+"Aerobic Mesophilic._7_Cooked Chicken Breast_3","Logistic","N0",0.0899747453506606
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Quadratic","(Intercept)",-0.670578313998553
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Quadratic","Time",0.033810342190525
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Quadratic","I(Time^2)",-1.74218916056747e-05
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Logistic","r",0.0330558268836529
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Logistic","K",2502.05834926643
+"Aerobic Mesophilic._7_Raw Chicken Breast_3","Logistic","N0",0.445631116128624
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.593180784189622
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Quadratic","Time",0.0207485019163303
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Quadratic","I(Time^2)",2.33525417731896e-05
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Logistic","r",0.0289510056775519
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Logistic","K",10634.0251733029
+"Aerobic Mesophilic._7_Salted Chicken Breast_3","Logistic","N0",0.347980199614024
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.91818917636111
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Quadratic","Time",0.0800650855087972
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.00017472289533064
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Logistic","r",0.0596544220436899
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Logistic","K",1039.92133666797
+"Aerobic Psychotropic._10_Cooked Chicken Breast_3","Logistic","N0",0.221251379196013
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.91701378960506
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Quadratic","Time",0.0915259494464057
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000231749157425757
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Logistic","r",0.064068428473931
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Logistic","K",394.920800803705
+"Aerobic Psychotropic._10_Raw Chicken Breast_3","Logistic","N0",0.104597248872868
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.60275481850966
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Quadratic","Time",0.073628626174451
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000167207395758136
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Logistic","r",0.0540713166268336
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Logistic","K",572.507410887118
+"Aerobic Psychotropic._10_Salted Chicken Breast_3","Logistic","N0",0.304060070826051
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.76309301452039
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Quadratic","Time",0.147786153767551
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000514550474037566
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Logistic","r",0.100919227201726
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Logistic","K",1698.93400698491
+"Aerobic Psychotropic._15_Cooked Chicken Breast_3","Logistic","N0",0.15633035364591
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.46556280672793
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Quadratic","Time",0.121417955352196
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000294828603666905
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Logistic","r",0.105963585007632
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Logistic","K",2230.94221182705
+"Aerobic Psychotropic._15_Raw Chicken Breast_3","Logistic","N0",0.256503550234945
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.8400944510074
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Quadratic","Time",0.118107901063171
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000430500851162925
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Logistic","r",0.0865449708389516
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Logistic","K",373.176528563292
+"Aerobic Psychotropic._15_Salted Chicken Breast_3","Logistic","N0",0.256378348454046
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.15797769137449
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Quadratic","Time",0.138213945858544
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-4.44226647636593e-05
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Logistic","r",0.14527872763318
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Logistic","K",1265.06714627793
+"Aerobic Psychotropic._20_Cooked Chicken Breast_3","Logistic","N0",0.268468279363202
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.8030129573663
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Quadratic","Time",0.264512718641434
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.00141794607332145
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Logistic","r",0.208162130073104
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Logistic","K",938.843110370157
+"Aerobic Psychotropic._20_Raw Chicken Breast_3","Logistic","N0",0.0996502498440842
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Quadratic","(Intercept)",-6.36267912630298
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Quadratic","Time",0.400133289686889
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.00327625207859645
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Logistic","r",0.206966991926747
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Logistic","K",340.225334069679
+"Aerobic Psychotropic._20_Salted Chicken Breast_3","Logistic","N0",0.0280118270561877
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.80341655821476
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Quadratic","Time",0.0160032226894114
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Quadratic","I(Time^2)",1.72362816912049e-06
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Logistic","r",0.0187487653467168
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Logistic","K",3654.72183942776
+"Aerobic Psychotropic._2_Cooked Chicken Breast_3","Logistic","N0",0.103411520624072
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.24839702227351
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Quadratic","Time",0.0259657966113634
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Quadratic","I(Time^2)",-1.73334587841629e-05
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Logistic","r",0.0197226222028416
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Logistic","K",765.837354597195
+"Aerobic Psychotropic._2_Raw Chicken Breast_3","Logistic","N0",0.164206519318014
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.81445607951623
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Quadratic","Time",0.0248825975937385
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Quadratic","I(Time^2)",-1.91519746312158e-05
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Logistic","r",0.0187407031514136
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Logistic","K",392.761086795597
+"Aerobic Psychotropic._2_Salted Chicken Breast_3","Logistic","N0",0.235294295393298
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.42782859811133
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Quadratic","Time",0.0251349108825732
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-9.55123112353154e-06
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Logistic","r",0.0224625001046956
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Logistic","K",3772.31536596086
+"Aerobic Psychotropic._4_Cooked Chicken Breast_3","Logistic","N0",0.0930084097387662
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Quadratic","(Intercept)",-4.97463566171845
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Quadratic","Time",0.0534924596511684
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Quadratic","I(Time^2)",-5.91961295838564e-05
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Logistic","r",0.0290140834499923
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Logistic","K",1162.03745600244
+"Aerobic Psychotropic._4_Raw Chicken Breast_3","Logistic","N0",0.0750869498432518
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Quadratic","(Intercept)",-4.97808857348292
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Quadratic","Time",0.0477236641556097
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Quadratic","I(Time^2)",-5.03845338682759e-05
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Logistic","r",0.0266093302441605
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Logistic","K",527.721297003726
+"Aerobic Psychotropic._4_Salted Chicken Breast_3","Logistic","N0",0.0558809222474838
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.11416298141904
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Quadratic","Time",0.0290498209212598
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-6.41528244389104e-06
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Logistic","r",0.0308824112519742
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Logistic","K",2101.06515024599
+"Aerobic Psychotropic._7_Cooked Chicken Breast_3","Logistic","N0",0.246102329309474
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Quadratic","(Intercept)",-0.732330614726585
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Quadratic","Time",0.0339267421391533
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Quadratic","I(Time^2)",-2.30876095650823e-05
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Logistic","r",0.0320326762292655
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Logistic","K",1528.47933489028
+"Aerobic Psychotropic._7_Raw Chicken Breast_3","Logistic","N0",0.422405724972762
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.308710822979685
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Quadratic","Time",0.0233295033964573
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Quadratic","I(Time^2)",-6.14171616403181e-07
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Logistic","r",0.0248348388308774
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Logistic","K",2103.03720204856
+"Aerobic Psychotropic._7_Salted Chicken Breast_3","Logistic","N0",0.641833731607275
+"Arthrobacter aurescens_0_TGE agar_6","Quadratic","(Intercept)",1.15291772898922
+"Arthrobacter aurescens_0_TGE agar_6","Quadratic","Time",-0.00467959732105281
+"Arthrobacter aurescens_0_TGE agar_6","Quadratic","I(Time^2)",2.13960948548892e-05
+"Arthrobacter aurescens_0_TGE agar_6","Logistic","r",0.0078522043610546
+"Arthrobacter aurescens_0_TGE agar_6","Logistic","K",651213737.637573
+"Arthrobacter aurescens_0_TGE agar_6","Logistic","N0",0.95405270569872
+"Arthrobacter aurescens_20_TGE agar_6","Quadratic","(Intercept)",0.953730625883849
+"Arthrobacter aurescens_20_TGE agar_6","Quadratic","Time",0.0737818921432182
+"Arthrobacter aurescens_20_TGE agar_6","Quadratic","I(Time^2)",-0.000240604246584722
+"Arthrobacter aurescens_20_TGE agar_6","Logistic","r",0.0860449630347046
+"Arthrobacter aurescens_20_TGE agar_6","Logistic","K",269.506895070151
+"Arthrobacter aurescens_20_TGE agar_6","Logistic","N0",1.64324671861676
+"Arthrobacter aurescens_30_TGE agar_6","Quadratic","(Intercept)",0.646279666546603
+"Arthrobacter aurescens_30_TGE agar_6","Quadratic","Time",0.15875788738793
+"Arthrobacter aurescens_30_TGE agar_6","Quadratic","I(Time^2)",-0.00105685122477397
+"Arthrobacter aurescens_37_TGE agar_6","Quadratic","(Intercept)",0.609190143338523
+"Arthrobacter aurescens_37_TGE agar_6","Quadratic","Time",0.0202860576854874
+"Arthrobacter aurescens_37_TGE agar_6","Quadratic","I(Time^2)",-2.0513758892105e-05
+"Arthrobacter aurescens_37_TGE agar_6","Logistic","r",0.0197175412941415
+"Arthrobacter aurescens_37_TGE agar_6","Logistic","K",89.7808212131759
+"Arthrobacter aurescens_37_TGE agar_6","Logistic","N0",1.81592900507504
+"Arthrobacter aurescens_7_TGE agar_6","Quadratic","(Intercept)",1.05546375473385
+"Arthrobacter aurescens_7_TGE agar_6","Quadratic","Time",0.0455975430045795
+"Arthrobacter aurescens_7_TGE agar_6","Quadratic","I(Time^2)",-9.13548668742311e-05
+"Arthrobacter aurescens_7_TGE agar_6","Logistic","r",0.0424821174755344
+"Arthrobacter aurescens_7_TGE agar_6","Logistic","K",610.226239071387
+"Arthrobacter aurescens_7_TGE agar_6","Logistic","N0",2.35866414156606
+"Arthrobacter citreus_0_TGE agar_6","Quadratic","(Intercept)",1.48498464015561
+"Arthrobacter citreus_0_TGE agar_6","Quadratic","Time",-0.0115074189337268
+"Arthrobacter citreus_0_TGE agar_6","Quadratic","I(Time^2)",4.18441979466658e-05
+"Arthrobacter citreus_0_TGE agar_6","Logistic","r",0.00790256402287252
+"Arthrobacter citreus_0_TGE agar_6","Logistic","K",301342141.566434
+"Arthrobacter citreus_0_TGE agar_6","Logistic","N0",0.98982909104266
+"Arthrobacter citreus_20_TGE agar_6","Quadratic","(Intercept)",1.11166713501637
+"Arthrobacter citreus_20_TGE agar_6","Quadratic","Time",0.0595684421330116
+"Arthrobacter citreus_20_TGE agar_6","Quadratic","I(Time^2)",-0.000166813384965932
+"Arthrobacter citreus_20_TGE agar_6","Logistic","r",0.0695475328884649
+"Arthrobacter citreus_20_TGE agar_6","Logistic","K",485.663953702772
+"Arthrobacter citreus_20_TGE agar_6","Logistic","N0",2.2266904912429
+"Arthrobacter citreus_30_TGE agar_6","Quadratic","(Intercept)",0.803381680171649
+"Arthrobacter citreus_30_TGE agar_6","Quadratic","Time",0.0741669653336434
+"Arthrobacter citreus_30_TGE agar_6","Quadratic","I(Time^2)",-0.000293706965892398
+"Arthrobacter citreus_30_TGE agar_6","Logistic","r",0.0814364562876281
+"Arthrobacter citreus_30_TGE agar_6","Logistic","K",192.994752666518
+"Arthrobacter citreus_30_TGE agar_6","Logistic","N0",1.57547180354928
+"Arthrobacter citreus_37_TGE agar_6","Quadratic","(Intercept)",0.294729970414908
+"Arthrobacter citreus_37_TGE agar_6","Quadratic","Time",0.0675330875827462
+"Arthrobacter citreus_37_TGE agar_6","Quadratic","I(Time^2)",-0.000188329634582175
+"Arthrobacter citreus_37_TGE agar_6","Logistic","r",0.0642278365056572
+"Arthrobacter citreus_37_TGE agar_6","Logistic","K",477.857191363218
+"Arthrobacter citreus_37_TGE agar_6","Logistic","N0",1.12532455376506
+"Arthrobacter citreus_7_TGE agar_6","Quadratic","(Intercept)",0.184697354698064
+"Arthrobacter citreus_7_TGE agar_6","Quadratic","Time",0.0272502120381562
+"Arthrobacter citreus_7_TGE agar_6","Quadratic","I(Time^2)",-3.32510982779753e-05
+"Arthrobacter citreus_7_TGE agar_6","Logistic","r",0.0241580577304819
+"Arthrobacter citreus_7_TGE agar_6","Logistic","K",243.525410853815
+"Arthrobacter citreus_7_TGE agar_6","Logistic","N0",1.1280235587828
+"Arthrobacter globiformis_0_TGE agar_6","Quadratic","(Intercept)",1.00920234246203
+"Arthrobacter globiformis_0_TGE agar_6","Quadratic","Time",-1.39078718759167e-05
+"Arthrobacter globiformis_0_TGE agar_6","Quadratic","I(Time^2)",2.56832310391609e-08
+"Arthrobacter globiformis_0_TGE agar_6","Logistic","r",1.96222830542221e-06
+"Arthrobacter globiformis_0_TGE agar_6","Logistic","K",4.32137941171091
+"Arthrobacter globiformis_0_TGE agar_6","Logistic","N0",2.73999886506903
+"Arthrobacter globiformis_20_TGE agar_6","Quadratic","(Intercept)",1.31116083395765
+"Arthrobacter globiformis_20_TGE agar_6","Quadratic","Time",0.0454061399680034
+"Arthrobacter globiformis_20_TGE agar_6","Quadratic","I(Time^2)",-0.000132627360057424
+"Arthrobacter globiformis_20_TGE agar_6","Logistic","r",0.0747660023738723
+"Arthrobacter globiformis_20_TGE agar_6","Logistic","K",124.030883334664
+"Arthrobacter globiformis_20_TGE agar_6","Logistic","N0",2.08891433821325
+"Arthrobacter globiformis_30_TGE agar_6","Quadratic","(Intercept)",1.65497310341156
+"Arthrobacter globiformis_30_TGE agar_6","Quadratic","Time",0.051642751325861
+"Arthrobacter globiformis_30_TGE agar_6","Quadratic","I(Time^2)",-0.000159778779401325
+"Arthrobacter globiformis_30_TGE agar_6","Logistic","r",0.0733648268458013
+"Arthrobacter globiformis_30_TGE agar_6","Logistic","K",169.992673442577
+"Arthrobacter globiformis_30_TGE agar_6","Logistic","N0",3.43301114218003
+"Arthrobacter globiformis_37_TGE agar_6","Quadratic","(Intercept)",2.05586935003351
+"Arthrobacter globiformis_37_TGE agar_6","Quadratic","Time",0.0622366318469319
+"Arthrobacter globiformis_37_TGE agar_6","Quadratic","I(Time^2)",-0.000248929454915272
+"Arthrobacter globiformis_37_TGE agar_6","Logistic","r",0.187943628055863
+"Arthrobacter globiformis_37_TGE agar_6","Logistic","K",203.082169289636
+"Arthrobacter globiformis_37_TGE agar_6","Logistic","N0",2.08876247596475
+"Arthrobacter globiformis_7_TGE agar_6","Quadratic","(Intercept)",0.906420855302837
+"Arthrobacter globiformis_7_TGE agar_6","Quadratic","Time",0.0175263134428739
+"Arthrobacter globiformis_7_TGE agar_6","Quadratic","I(Time^2)",-2.00909117343233e-05
+"Arthrobacter globiformis_7_TGE agar_6","Logistic","r",0.0169460958647359
+"Arthrobacter globiformis_7_TGE agar_6","Logistic","K",102.549016269949
+"Arthrobacter globiformis_7_TGE agar_6","Logistic","N0",2.39295390955304
+"Arthrobacter simplex_0_TGE agar_6","Quadratic","(Intercept)",1.00838113856091
+"Arthrobacter simplex_0_TGE agar_6","Quadratic","Time",-9.95827848068017e-06
+"Arthrobacter simplex_0_TGE agar_6","Quadratic","I(Time^2)",4.01515340443783e-08
+"Arthrobacter simplex_0_TGE agar_6","Logistic","r",1.32552817802345e-05
+"Arthrobacter simplex_0_TGE agar_6","Logistic","K",130.494047992974
+"Arthrobacter simplex_0_TGE agar_6","Logistic","N0",2.73572818090537
+"Arthrobacter simplex_20_TGE agar_6","Quadratic","(Intercept)",0.539882506884182
+"Arthrobacter simplex_20_TGE agar_6","Quadratic","Time",0.0602897829022768
+"Arthrobacter simplex_20_TGE agar_6","Quadratic","I(Time^2)",-0.000161710699296199
+"Arthrobacter simplex_20_TGE agar_6","Logistic","r",0.054199419032846
+"Arthrobacter simplex_20_TGE agar_6","Logistic","K",358.557852013619
+"Arthrobacter simplex_20_TGE agar_6","Logistic","N0",1.6175516694553
+"Arthrobacter simplex_30_TGE agar_6","Quadratic","(Intercept)",1.5749330441335
+"Arthrobacter simplex_30_TGE agar_6","Quadratic","Time",0.0522655054571889
+"Arthrobacter simplex_30_TGE agar_6","Quadratic","I(Time^2)",-0.000143267248589911
+"Arthrobacter simplex_30_TGE agar_6","Logistic","r",0.0778514319677272
+"Arthrobacter simplex_30_TGE agar_6","Logistic","K",294.925374193751
+"Arthrobacter simplex_30_TGE agar_6","Logistic","N0",2.26687545121549
+"Arthrobacter simplex_37_TGE agar_6","Quadratic","(Intercept)",1.64267541317839
+"Arthrobacter simplex_37_TGE agar_6","Quadratic","Time",0.0614415651186731
+"Arthrobacter simplex_37_TGE agar_6","Quadratic","I(Time^2)",-0.000198509748934679
+"Arthrobacter simplex_37_TGE agar_6","Logistic","r",0.104014987420534
+"Arthrobacter simplex_37_TGE agar_6","Logistic","K",410.120916160413
+"Arthrobacter simplex_37_TGE agar_6","Logistic","N0",2.16541747760861
+"Arthrobacter simplex_7_TGE agar_6","Quadratic","(Intercept)",0.298343651373651
+"Arthrobacter simplex_7_TGE agar_6","Quadratic","Time",0.0116033225446017
+"Arthrobacter simplex_7_TGE agar_6","Quadratic","I(Time^2)",-7.37231390070492e-07
+"Arthrobacter simplex_7_TGE agar_6","Logistic","r",0.0129187800326679
+"Arthrobacter simplex_7_TGE agar_6","Logistic","K",636.951357251215
+"Arthrobacter simplex_7_TGE agar_6","Logistic","N0",1.04863250737111
+"Arthrobacter sp. 62_0_TGE agar_6","Quadratic","(Intercept)",0.317572790240716
+"Arthrobacter sp. 62_0_TGE agar_6","Quadratic","Time",0.00799064977183805
+"Arthrobacter sp. 62_0_TGE agar_6","Quadratic","I(Time^2)",4.26347008078552e-06
+"Arthrobacter sp. 62_0_TGE agar_6","Logistic","r",0.010766091568243
+"Arthrobacter sp. 62_0_TGE agar_6","Logistic","K",7858.50580351266
+"Arthrobacter sp. 62_0_TGE agar_6","Logistic","N0",1.04148953489933
+"Arthrobacter sp. 62_20_TGE agar_6","Quadratic","(Intercept)",0.291501751615285
+"Arthrobacter sp. 62_20_TGE agar_6","Quadratic","Time",0.139398791056864
+"Arthrobacter sp. 62_20_TGE agar_6","Quadratic","I(Time^2)",-0.000747259746701904
+"Arthrobacter sp. 62_20_TGE agar_6","Logistic","r",0.111087384226017
+"Arthrobacter sp. 62_20_TGE agar_6","Logistic","K",734.926679203267
+"Arthrobacter sp. 62_20_TGE agar_6","Logistic","N0",1.49386368017083
+"Arthrobacter sp. 62_30_TGE agar_6","Quadratic","(Intercept)",1.02609728673141
+"Arthrobacter sp. 62_30_TGE agar_6","Quadratic","Time",-5.17457739470796e-05
+"Arthrobacter sp. 62_30_TGE agar_6","Quadratic","I(Time^2)",9.04938580312531e-08
+"Arthrobacter sp. 62_30_TGE agar_6","Logistic","r",0.165100758551583
+"Arthrobacter sp. 62_30_TGE agar_6","Logistic","K",2.78178481138178
+"Arthrobacter sp. 62_30_TGE agar_6","Logistic","N0",2.76642219877492
+"Arthrobacter sp. 62_37_TGE agar_6","Quadratic","(Intercept)",1.01244597127111
+"Arthrobacter sp. 62_37_TGE agar_6","Quadratic","Time",-2.15980452113531e-05
+"Arthrobacter sp. 62_37_TGE agar_6","Quadratic","I(Time^2)",8.46224772504182e-08
+"Arthrobacter sp. 62_37_TGE agar_6","Logistic","r",3.39250845272481e-05
+"Arthrobacter sp. 62_37_TGE agar_6","Logistic","K",358.073293732384
+"Arthrobacter sp. 62_37_TGE agar_6","Logistic","N0",2.73479666000465
+"Arthrobacter sp. 62_7_TGE agar_6","Quadratic","(Intercept)",0.664719454451688
+"Arthrobacter sp. 62_7_TGE agar_6","Quadratic","Time",0.0326204712719103
+"Arthrobacter sp. 62_7_TGE agar_6","Quadratic","I(Time^2)",-4.38707468141133e-05
+"Arthrobacter sp. 62_7_TGE agar_6","Logistic","r",0.0278072364660418
+"Arthrobacter sp. 62_7_TGE agar_6","Logistic","K",688.061513430576
+"Arthrobacter sp. 62_7_TGE agar_6","Logistic","N0",2.00697712972103
+"Arthrobacter sp. 77_0_TGE agar_6","Quadratic","(Intercept)",0.445823945868813
+"Arthrobacter sp. 77_0_TGE agar_6","Quadratic","Time",0.0194288613607496
+"Arthrobacter sp. 77_0_TGE agar_6","Quadratic","I(Time^2)",-1.67054309510986e-05
+"Arthrobacter sp. 77_0_TGE agar_6","Logistic","r",0.015477173420343
+"Arthrobacter sp. 77_0_TGE agar_6","Logistic","K",428.627367571129
+"Arthrobacter sp. 77_0_TGE agar_6","Logistic","N0",1.80514248577451
+"Arthrobacter sp. 77_20_TGE agar_6","Quadratic","(Intercept)",0.406500942042613
+"Arthrobacter sp. 77_20_TGE agar_6","Quadratic","Time",0.129813101804928
+"Arthrobacter sp. 77_20_TGE agar_6","Quadratic","I(Time^2)",-0.000784894818519974
+"Arthrobacter sp. 77_20_TGE agar_6","Logistic","r",0.108636467609701
+"Arthrobacter sp. 77_20_TGE agar_6","Logistic","K",288.015721742285
+"Arthrobacter sp. 77_20_TGE agar_6","Logistic","N0",1.52232523656825
+"Arthrobacter sp. 77_30_TGE agar_6","Quadratic","(Intercept)",0.701292494174262
+"Arthrobacter sp. 77_30_TGE agar_6","Quadratic","Time",0.0772322364432262
+"Arthrobacter sp. 77_30_TGE agar_6","Quadratic","I(Time^2)",-0.000266524050611381
+"Arthrobacter sp. 77_30_TGE agar_6","Logistic","r",0.081907783511865
+"Arthrobacter sp. 77_30_TGE agar_6","Logistic","K",257.067669489934
+"Arthrobacter sp. 77_30_TGE agar_6","Logistic","N0",1.43631608551168
+"Arthrobacter sp. 77_37_TGE agar_6","Quadratic","(Intercept)",0.99917152004788
+"Arthrobacter sp. 77_37_TGE agar_6","Quadratic","Time",-4.23349969549919e-05
+"Arthrobacter sp. 77_37_TGE agar_6","Quadratic","I(Time^2)",8.53906821001888e-08
+"Arthrobacter sp. 77_37_TGE agar_6","Logistic","r",1.14639121621334e-05
+"Arthrobacter sp. 77_37_TGE agar_6","Logistic","K",316.496796095963
+"Arthrobacter sp. 77_37_TGE agar_6","Logistic","N0",2.70180048465717
+"Arthrobacter sp. 77_7_TGE agar_6","Quadratic","(Intercept)",0.862990818863624
+"Arthrobacter sp. 77_7_TGE agar_6","Quadratic","Time",0.0330308211486599
+"Arthrobacter sp. 77_7_TGE agar_6","Quadratic","I(Time^2)",-4.80332223911894e-05
+"Arthrobacter sp. 77_7_TGE agar_6","Logistic","r",0.0338698754256933
+"Arthrobacter sp. 77_7_TGE agar_6","Logistic","K",479.913442560908
+"Arthrobacter sp. 77_7_TGE agar_6","Logistic","N0",1.7953288835043
+"Arthrobacter sp. 88_0_TGE agar_6","Quadratic","(Intercept)",-1.08121334251857
+"Arthrobacter sp. 88_0_TGE agar_6","Quadratic","Time",0.0241665945621983
+"Arthrobacter sp. 88_0_TGE agar_6","Quadratic","I(Time^2)",-2.3931567900136e-05
+"Arthrobacter sp. 88_0_TGE agar_6","Logistic","r",0.0170148850734795
+"Arthrobacter sp. 88_0_TGE agar_6","Logistic","K",155.012497876275
+"Arthrobacter sp. 88_0_TGE agar_6","Logistic","N0",0.549025992658935
+"Arthrobacter sp. 88_20_TGE agar_6","Quadratic","(Intercept)",2.05743271697456
+"Arthrobacter sp. 88_20_TGE agar_6","Quadratic","Time",0.0648104640140726
+"Arthrobacter sp. 88_20_TGE agar_6","Quadratic","I(Time^2)",-0.000190946923836835
+"Arthrobacter sp. 88_20_TGE agar_6","Logistic","r",0.121401768535765
+"Arthrobacter sp. 88_20_TGE agar_6","Logistic","K",948.942999877711
+"Arthrobacter sp. 88_20_TGE agar_6","Logistic","N0",1.44241814841991
+"Arthrobacter sp. 88_30_TGE agar_6","Quadratic","(Intercept)",-0.855811969050295
+"Arthrobacter sp. 88_30_TGE agar_6","Quadratic","Time",0.0866065801100789
+"Arthrobacter sp. 88_30_TGE agar_6","Quadratic","I(Time^2)",-0.000229894509164197
+"Arthrobacter sp. 88_30_TGE agar_6","Logistic","r",0.117603383530131
+"Arthrobacter sp. 88_30_TGE agar_6","Logistic","K",815.53234343175
+"Arthrobacter sp. 88_30_TGE agar_6","Logistic","N0",0.0453999029557778
+"Arthrobacter sp. 88_37_TGE agar_6","Quadratic","(Intercept)",1.00613226322575
+"Arthrobacter sp. 88_37_TGE agar_6","Quadratic","Time",5.05608189318738e-05
+"Arthrobacter sp. 88_37_TGE agar_6","Quadratic","I(Time^2)",-6.49493118973774e-08
+"Arthrobacter sp. 88_37_TGE agar_6","Logistic","r",0.0055780832643631
+"Arthrobacter sp. 88_37_TGE agar_6","Logistic","K",2.76117841430207
+"Arthrobacter sp. 88_37_TGE agar_6","Logistic","N0",2.73899497215888
+"Arthrobacter sp. 88_7_TGE agar_6","Quadratic","(Intercept)",1.15858063941867
+"Arthrobacter sp. 88_7_TGE agar_6","Quadratic","Time",0.0336909691937991
+"Arthrobacter sp. 88_7_TGE agar_6","Quadratic","I(Time^2)",-6.65396561886039e-05
+"Arthrobacter sp. 88_7_TGE agar_6","Logistic","r",0.0345873499535893
+"Arthrobacter sp. 88_7_TGE agar_6","Logistic","K",178.625928508876
+"Arthrobacter sp. 88_7_TGE agar_6","Logistic","N0",2.71605443068205
+"Bacillus.pumilus..RDA.R._15_TSB_1","Quadratic","(Intercept)",-4.70853305694345
+"Bacillus.pumilus..RDA.R._15_TSB_1","Quadratic","Time",0.0207875339074121
+"Bacillus.pumilus..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-3.14061757866636e-05
+"Bacillus.pumilus..RDA.R._15_TSB_1","Logistic","r",0.042304617227777
+"Bacillus.pumilus..RDA.R._15_TSB_1","Logistic","K",0.191250912309081
+"Bacillus.pumilus..RDA.R._15_TSB_1","Logistic","N0",0.00349016001445661
+"Bacillus.pumilus..RDA.R._25_TSB_1","Quadratic","(Intercept)",-4.70499859681918
+"Bacillus.pumilus..RDA.R._25_TSB_1","Quadratic","Time",0.0787707885957571
+"Bacillus.pumilus..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.00039898903110548
+"Bacillus.pumilus..RDA.R._25_TSB_1","Logistic","r",0.365938691613854
+"Bacillus.pumilus..RDA.R._25_TSB_1","Logistic","K",0.203631181975599
+"Bacillus.pumilus..RDA.R._25_TSB_1","Logistic","N0",0.00205910251821106
+"Bacillus.pumilus..RDA.R._35_TSB_1","Quadratic","(Intercept)",-3.36071838016138
+"Bacillus.pumilus..RDA.R._35_TSB_1","Quadratic","Time",0.0638410179549169
+"Bacillus.pumilus..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000362921786884932
+"Bacillus.pumilus..RDA.R._35_TSB_1","Logistic","r",0.448549075976082
+"Bacillus.pumilus..RDA.R._35_TSB_1","Logistic","K",0.289719229932578
+"Bacillus.pumilus..RDA.R._35_TSB_1","Logistic","N0",0.00641432472703587
+"Bacillus.pumilus..RDA.R._5_TSB_1","Quadratic","(Intercept)",-6.53680905013899
+"Bacillus.pumilus..RDA.R._5_TSB_1","Quadratic","Time",0.00247083474966785
+"Bacillus.pumilus..RDA.R._5_TSB_1","Quadratic","I(Time^2)",-8.90766909563881e-06
+"Bacillus.pumilus..RDA.R._5_TSB_1","Logistic","r",0.239862207189125
+"Bacillus.pumilus..RDA.R._5_TSB_1","Logistic","K",0.000855925865971672
+"Bacillus.pumilus..RDA.R._5_TSB_1","Logistic","N0",123.613567782828
+"Bacillus.pumilus_15_TSB_1","Quadratic","(Intercept)",-4.13552084453794
+"Bacillus.pumilus_15_TSB_1","Quadratic","Time",0.0181977350258868
+"Bacillus.pumilus_15_TSB_1","Quadratic","I(Time^2)",-3.30087901714487e-05
+"Bacillus.pumilus_15_TSB_1","Logistic","r",0.0530327101684916
+"Bacillus.pumilus_15_TSB_1","Logistic","K",0.126492739011274
+"Bacillus.pumilus_15_TSB_1","Logistic","N0",0.00721305788781386
+"Bacillus.pumilus_25_TSB_1","Quadratic","(Intercept)",-4.28996578225205
+"Bacillus.pumilus_25_TSB_1","Quadratic","Time",0.0590109230388942
+"Bacillus.pumilus_25_TSB_1","Quadratic","I(Time^2)",-0.000254621229875614
+"Bacillus.pumilus_25_TSB_1","Logistic","r",0.167101959918651
+"Bacillus.pumilus_25_TSB_1","Logistic","K",0.230649667046031
+"Bacillus.pumilus_25_TSB_1","Logistic","N0",0.00504304356558721
+"Bacillus.pumilus_35_TSB_1","Quadratic","(Intercept)",-5.11636646382585
+"Bacillus.pumilus_35_TSB_1","Quadratic","Time",0.109476680867379
+"Bacillus.pumilus_35_TSB_1","Quadratic","I(Time^2)",-0.000623876462466358
+"Bacillus.pumilus_35_TSB_1","Logistic","r",1.52350584964732
+"Bacillus.pumilus_35_TSB_1","Logistic","K",0.142032834741763
+"Bacillus.pumilus_35_TSB_1","Logistic","N0",1.08433839891871e-05
+"Bacillus.pumilus_5_TSB_1","Quadratic","(Intercept)",-5.79453095926569
+"Bacillus.pumilus_5_TSB_1","Quadratic","Time",0.00229025072581254
+"Bacillus.pumilus_5_TSB_1","Quadratic","I(Time^2)",-5.36332320052066e-06
+"Bacillus.pumilus_5_TSB_1","Logistic","r",0.894531530993647
+"Bacillus.pumilus_5_TSB_1","Logistic","K",0.00294231170807006
+"Bacillus.pumilus_5_TSB_1","Logistic","N0",0.00148032847068469
+"Chryseobacterium.balustinum_15_TSB_1","Quadratic","(Intercept)",-2.6503009196408
+"Chryseobacterium.balustinum_15_TSB_1","Quadratic","Time",0.0114014342247885
+"Chryseobacterium.balustinum_15_TSB_1","Quadratic","I(Time^2)",-1.88800383850703e-05
+"Chryseobacterium.balustinum_15_TSB_1","Logistic","r",0.0369405984545181
+"Chryseobacterium.balustinum_15_TSB_1","Logistic","K",0.317663679933481
+"Chryseobacterium.balustinum_15_TSB_1","Logistic","N0",0.0335391698192294
+"Chryseobacterium.balustinum_25_TSB_1","Quadratic","(Intercept)",-3.80096992406089
+"Chryseobacterium.balustinum_25_TSB_1","Quadratic","Time",0.0470284234715331
+"Chryseobacterium.balustinum_25_TSB_1","Quadratic","I(Time^2)",-0.000188011292349218
+"Chryseobacterium.balustinum_25_TSB_1","Logistic","r",0.130448121786123
+"Chryseobacterium.balustinum_25_TSB_1","Logistic","K",0.264636975348754
+"Chryseobacterium.balustinum_25_TSB_1","Logistic","N0",0.00937294836933043
+"Chryseobacterium.balustinum_35_TSB_1","Quadratic","(Intercept)",-3.76953492693104
+"Chryseobacterium.balustinum_35_TSB_1","Quadratic","Time",0.0675922760206114
+"Chryseobacterium.balustinum_35_TSB_1","Quadratic","I(Time^2)",-0.00036810065085228
+"Chryseobacterium.balustinum_35_TSB_1","Logistic","r",0.502461098406674
+"Chryseobacterium.balustinum_35_TSB_1","Logistic","K",0.237371117634926
+"Chryseobacterium.balustinum_35_TSB_1","Logistic","N0",0.0044238473357101
+"Chryseobacterium.balustinum_5_TSB_1","Quadratic","(Intercept)",-4.2987680599594
+"Chryseobacterium.balustinum_5_TSB_1","Quadratic","Time",0.0123514307048272
+"Chryseobacterium.balustinum_5_TSB_1","Quadratic","I(Time^2)",-1.22951404743798e-05
+"Chryseobacterium.balustinum_5_TSB_1","Logistic","r",0.0174940627055515
+"Chryseobacterium.balustinum_5_TSB_1","Logistic","K",0.246492347804861
+"Chryseobacterium.balustinum_5_TSB_1","Logistic","N0",0.00851010341036092
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Quadratic","(Intercept)",-3.06844523075665
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Quadratic","Time",0.0195621819582466
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-3.75795116712668e-05
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Logistic","r",0.055132787612684
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Logistic","K",0.352725973897901
+"Clavibacter.michiganensis..RDA.R._15_TSB_1","Logistic","N0",0.0232345675774743
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Quadratic","(Intercept)",-3.31435371705327
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Quadratic","Time",0.0743711338808503
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000440849661584298
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Logistic","r",0.334549428368062
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Logistic","K",0.39841070567642
+"Clavibacter.michiganensis..RDA.R._25_TSB_1","Logistic","N0",0.0105881943219496
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Quadratic","(Intercept)",-2.5060089346111
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Quadratic","Time",0.0599035984308338
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000352319086862581
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Logistic","r",0.436953806923093
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Logistic","K",0.556649234224016
+"Clavibacter.michiganensis..RDA.R._35_TSB_1","Logistic","N0",0.017733594212747
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Quadratic","(Intercept)",-3.69912903286447
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Quadratic","Time",0.008854060423271
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Quadratic","I(Time^2)",-7.72244346893704e-06
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Logistic","r",0.00960064366202716
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Logistic","K",0.313047570612564
+"Clavibacter.michiganensis..RDA.R._5_TSB_1","Logistic","N0",0.0235757933040952
+"Clavibacter.michiganensis_15_TSB_1","Quadratic","(Intercept)",-2.72572292696268
+"Clavibacter.michiganensis_15_TSB_1","Quadratic","Time",0.018299137305261
+"Clavibacter.michiganensis_15_TSB_1","Quadratic","I(Time^2)",-3.32697084395286e-05
+"Clavibacter.michiganensis_15_TSB_1","Logistic","r",0.0483319022056494
+"Clavibacter.michiganensis_15_TSB_1","Logistic","K",0.527250363855907
+"Clavibacter.michiganensis_15_TSB_1","Logistic","N0",0.0353621010899984
+"Clavibacter.michiganensis_25_TSB_1","Quadratic","(Intercept)",-2.92883698332011
+"Clavibacter.michiganensis_25_TSB_1","Quadratic","Time",0.06926428772659
+"Clavibacter.michiganensis_25_TSB_1","Quadratic","I(Time^2)",-0.000391271217539458
+"Clavibacter.michiganensis_25_TSB_1","Logistic","r",0.31608480414471
+"Clavibacter.michiganensis_25_TSB_1","Logistic","K",0.600467363759213
+"Clavibacter.michiganensis_25_TSB_1","Logistic","N0",0.0158673773965626
+"Clavibacter.michiganensis_35_TSB_1","Quadratic","(Intercept)",-2.60370421766315
+"Clavibacter.michiganensis_35_TSB_1","Quadratic","Time",0.0660796239264719
+"Clavibacter.michiganensis_35_TSB_1","Quadratic","I(Time^2)",-0.000373291151503883
+"Clavibacter.michiganensis_5_TSB_1","Quadratic","(Intercept)",-3.51934491742004
+"Clavibacter.michiganensis_5_TSB_1","Quadratic","Time",0.00996850303568433
+"Clavibacter.michiganensis_5_TSB_1","Quadratic","I(Time^2)",-9.44224301807397e-06
+"Clavibacter.michiganensis_5_TSB_1","Logistic","r",0.0122129484258463
+"Clavibacter.michiganensis_5_TSB_1","Logistic","K",0.377446234938687
+"Clavibacter.michiganensis_5_TSB_1","Logistic","N0",0.0247502729189386
+"Dickeya.zeae..RDA.R._15_TSB_1","Quadratic","(Intercept)",-2.49278545222558
+"Dickeya.zeae..RDA.R._15_TSB_1","Quadratic","Time",0.0176704028889914
+"Dickeya.zeae..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-3.39925652055819e-05
+"Dickeya.zeae..RDA.R._15_TSB_1","Logistic","r",0.179999870414904
+"Dickeya.zeae..RDA.R._15_TSB_1","Logistic","K",0.511956079323806
+"Dickeya.zeae..RDA.R._15_TSB_1","Logistic","N0",0.00781901653225611
+"Dickeya.zeae..RDA.R._25_TSB_1","Quadratic","(Intercept)",-2.53576337296886
+"Dickeya.zeae..RDA.R._25_TSB_1","Quadratic","Time",0.0642626473695724
+"Dickeya.zeae..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000368953750004813
+"Dickeya.zeae..RDA.R._25_TSB_1","Logistic","r",0.428775122591746
+"Dickeya.zeae..RDA.R._25_TSB_1","Logistic","K",0.736007013289083
+"Dickeya.zeae..RDA.R._25_TSB_1","Logistic","N0",0.0127168434002796
+"Dickeya.zeae..RDA.R._35_TSB_1","Quadratic","(Intercept)",-1.71253727242488
+"Dickeya.zeae..RDA.R._35_TSB_1","Quadratic","Time",0.043842613253132
+"Dickeya.zeae..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000338864605422664
+"Dickeya.zeae..RDA.R._35_TSB_1","Logistic","r",0.797930481320168
+"Dickeya.zeae..RDA.R._35_TSB_1","Logistic","K",0.514240858643446
+"Dickeya.zeae..RDA.R._35_TSB_1","Logistic","N0",0.0194230943959413
+"Dickeya.zeae..RDA.R._5_TSB_1","Quadratic","(Intercept)",-4.92898370521956
+"Dickeya.zeae..RDA.R._5_TSB_1","Quadratic","Time",-0.00231796576715839
+"Dickeya.zeae..RDA.R._5_TSB_1","Quadratic","I(Time^2)",9.49109159003434e-07
+"Dickeya.zeae..RDA.R._5_TSB_1","Logistic","r",0.000701889665567834
+"Dickeya.zeae..RDA.R._5_TSB_1","Logistic","K",0.00112903675011332
+"Dickeya.zeae..RDA.R._5_TSB_1","Logistic","N0",0.00841208166625997
+"Dickeya.zeae_15_TSB_1","Quadratic","(Intercept)",-2.4372788341995
+"Dickeya.zeae_15_TSB_1","Quadratic","Time",0.0163190690428807
+"Dickeya.zeae_15_TSB_1","Quadratic","I(Time^2)",-3.12649331656902e-05
+"Dickeya.zeae_15_TSB_1","Logistic","r",0.153787466915986
+"Dickeya.zeae_15_TSB_1","Logistic","K",0.495940284122907
+"Dickeya.zeae_15_TSB_1","Logistic","N0",0.0135947171937211
+"Dickeya.zeae_25_TSB_1","Quadratic","(Intercept)",-2.76257200127261
+"Dickeya.zeae_25_TSB_1","Quadratic","Time",0.0744635034453049
+"Dickeya.zeae_25_TSB_1","Quadratic","I(Time^2)",-0.000455406638922063
+"Dickeya.zeae_25_TSB_1","Logistic","r",0.434632589345547
+"Dickeya.zeae_25_TSB_1","Logistic","K",0.650927411911465
+"Dickeya.zeae_25_TSB_1","Logistic","N0",0.0108135810421539
+"Dickeya.zeae_35_TSB_1","Quadratic","(Intercept)",-1.91658455358316
+"Dickeya.zeae_35_TSB_1","Quadratic","Time",0.0561067935625374
+"Dickeya.zeae_35_TSB_1","Quadratic","I(Time^2)",-0.000384527575448568
+"Dickeya.zeae_35_TSB_1","Logistic","r",0.924146414356316
+"Dickeya.zeae_35_TSB_1","Logistic","K",0.649798222675056
+"Dickeya.zeae_35_TSB_1","Logistic","N0",0.0115203821513662
+"Dickeya.zeae_5_TSB_1","Quadratic","(Intercept)",-4.00041340309929
+"Dickeya.zeae_5_TSB_1","Quadratic","Time",-0.00669290085008332
+"Dickeya.zeae_5_TSB_1","Quadratic","I(Time^2)",9.44902659088593e-06
+"Dickeya.zeae_5_TSB_1","Logistic","r",0.0111127734459308
+"Dickeya.zeae_5_TSB_1","Logistic","K",0.00723053129666385
+"Dickeya.zeae_5_TSB_1","Logistic","N0",0.0240004169675299
+"Enterobacter.sp._15_TSB_1","Quadratic","(Intercept)",-1.90922081686926
+"Enterobacter.sp._15_TSB_1","Quadratic","Time",0.0140860012647511
+"Enterobacter.sp._15_TSB_1","Quadratic","I(Time^2)",-2.38969700500478e-05
+"Enterobacter.sp._25_TSB_1","Quadratic","(Intercept)",-3.04462359861154
+"Enterobacter.sp._25_TSB_1","Quadratic","Time",0.0340879785254603
+"Enterobacter.sp._25_TSB_1","Quadratic","I(Time^2)",-8.85310227166332e-05
+"Enterobacter.sp._25_TSB_1","Logistic","r",0.0569006125194488
+"Enterobacter.sp._25_TSB_1","Logistic","K",0.865638738856918
+"Enterobacter.sp._25_TSB_1","Logistic","N0",0.0322402568936153
+"Enterobacter.sp._35_TSB_1","Quadratic","(Intercept)",-1.59272350823598
+"Enterobacter.sp._35_TSB_1","Quadratic","Time",0.0493709243603536
+"Enterobacter.sp._35_TSB_1","Quadratic","I(Time^2)",-0.0002912749794361
+"Enterobacter.sp._35_TSB_1","Logistic","r",0.724280643607195
+"Enterobacter.sp._35_TSB_1","Logistic","K",0.928918879913785
+"Enterobacter.sp._35_TSB_1","Logistic","N0",0.023933804379413
+"Enterobacter.sp._5_TSB_1","Quadratic","(Intercept)",-1.76602415144839
+"Enterobacter.sp._5_TSB_1","Quadratic","Time",0.00646267765548278
+"Enterobacter.sp._5_TSB_1","Quadratic","I(Time^2)",-7.58783807426169e-06
+"Enterobacter.sp._5_TSB_1","Logistic","r",0.0456900225979929
+"Enterobacter.sp._5_TSB_1","Logistic","K",0.564218757518352
+"Enterobacter.sp._5_TSB_1","Logistic","N0",0.027471984883285
+"Escherichia coli_10_C02 Beef Striploins_4","Quadratic","(Intercept)",4.46495016625522
+"Escherichia coli_10_C02 Beef Striploins_4","Quadratic","Time",0.0488495195629655
+"Escherichia coli_10_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.0183710589964074
+"Escherichia coli_10_C02 Beef Striploins_4","Logistic","r",0.272936058037503
+"Escherichia coli_10_C02 Beef Striploins_4","Logistic","K",18170703292.2305
+"Escherichia coli_10_C02 Beef Striploins_4","Logistic","N0",57.1129717222445
+"Escherichia coli_10_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.67004646157882
+"Escherichia coli_10_Vacuum Beef Striploins_4","Quadratic","Time",1.5105297624814
+"Escherichia coli_10_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.129592300650957
+"Escherichia coli_10_Vacuum Beef Striploins_4","Logistic","r",1.32046649764679
+"Escherichia coli_10_Vacuum Beef Striploins_4","Logistic","K",3040.52589633258
+"Escherichia coli_10_Vacuum Beef Striploins_4","Logistic","N0",39.6290601972295
+"Escherichia coli_12_C02 Beef Striploins_4","Quadratic","(Intercept)",3.83131298667429
+"Escherichia coli_12_C02 Beef Striploins_4","Quadratic","Time",-0.172586575473587
+"Escherichia coli_12_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.0461319274681621
+"Escherichia coli_12_C02 Beef Striploins_4","Logistic","r",0.28852084462956
+"Escherichia coli_12_C02 Beef Striploins_4","Logistic","K",5947414524.32606
+"Escherichia coli_12_C02 Beef Striploins_4","Logistic","N0",21.335759582538
+"Escherichia coli_12_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.01179377766483
+"Escherichia coli_12_Vacuum Beef Striploins_4","Quadratic","Time",0.701365802706991
+"Escherichia coli_12_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.0623679034107218
+"Escherichia coli_12_Vacuum Beef Striploins_4","Logistic","r",1.01449450436779
+"Escherichia coli_12_Vacuum Beef Striploins_4","Logistic","K",135149566633.853
+"Escherichia coli_12_Vacuum Beef Striploins_4","Logistic","N0",44.7864932699831
+"Escherichia coli_15_C02 Beef Striploins_4","Quadratic","(Intercept)",3.42552537823301
+"Escherichia coli_15_C02 Beef Striploins_4","Quadratic","Time",0.760027530494615
+"Escherichia coli_15_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.0179742756472889
+"Escherichia coli_15_C02 Beef Striploins_4","Logistic","r",0.865162321091333
+"Escherichia coli_15_C02 Beef Striploins_4","Logistic","K",21876987150.8489
+"Escherichia coli_15_C02 Beef Striploins_4","Logistic","N0",28.2767768467072
+"Escherichia coli_15_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.39569487326866
+"Escherichia coli_15_Vacuum Beef Striploins_4","Quadratic","Time",2.74033071317887
+"Escherichia coli_15_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.316254450779134
+"Escherichia coli_20_C02 Beef Striploins_4","Quadratic","(Intercept)",4.51953809285944
+"Escherichia coli_20_C02 Beef Striploins_4","Quadratic","Time",5.08326210167269
+"Escherichia coli_20_C02 Beef Striploins_4","Quadratic","I(Time^2)",-1.37051717426665
+"Escherichia coli_20_C02 Beef Striploins_4","Logistic","r",4.12945500557388
+"Escherichia coli_20_C02 Beef Striploins_4","Logistic","K",10503.3828511076
+"Escherichia coli_20_C02 Beef Striploins_4","Logistic","N0",99.2696586596403
+"Escherichia coli_20_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.32996664372869
+"Escherichia coli_20_Vacuum Beef Striploins_4","Quadratic","Time",5.92589974149254
+"Escherichia coli_20_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-1.62704961689885
+"Escherichia coli_20_Vacuum Beef Striploins_4","Logistic","r",4.68127348946374
+"Escherichia coli_20_Vacuum Beef Striploins_4","Logistic","K",16936.1653825926
+"Escherichia coli_20_Vacuum Beef Striploins_4","Logistic","N0",81.9665376037067
+"Escherichia coli_30_C02 Beef Striploins_4","Quadratic","(Intercept)",3.38698988422913
+"Escherichia coli_30_C02 Beef Striploins_4","Quadratic","Time",9.57526038164047
+"Escherichia coli_30_C02 Beef Striploins_4","Quadratic","I(Time^2)",-4.02605062046342
+"Escherichia coli_30_C02 Beef Striploins_4","Logistic","r",7.67148989029248
+"Escherichia coli_30_C02 Beef Striploins_4","Logistic","K",8015.23771113003
+"Escherichia coli_30_C02 Beef Striploins_4","Logistic","N0",31.9681377666765
+"Escherichia coli_30_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.0015640405726
+"Escherichia coli_30_Vacuum Beef Striploins_4","Quadratic","Time",9.9346959658775
+"Escherichia coli_30_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-4.63063390665497
+"Escherichia coli_30_Vacuum Beef Striploins_4","Logistic","r",7.88750952555694
+"Escherichia coli_30_Vacuum Beef Striploins_4","Logistic","K",11343.7151925336
+"Escherichia coli_30_Vacuum Beef Striploins_4","Logistic","N0",57.7984317947322
+"Escherichia coli_8_Vacuum Beef Striploins_4","Quadratic","(Intercept)",2.86238225844146
+"Escherichia coli_8_Vacuum Beef Striploins_4","Quadratic","Time",0.52685640237763
+"Escherichia coli_8_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.00780065930425892
+"Escherichia coli_8_Vacuum Beef Striploins_4","Logistic","r",0.581491964044915
+"Escherichia coli_8_Vacuum Beef Striploins_4","Logistic","K",673417628.310277
+"Escherichia coli_8_Vacuum Beef Striploins_4","Logistic","N0",16.2736149078617
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Quadratic","(Intercept)",-1.92039424497291
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Quadratic","Time",0.0135632449827957
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-2.34616192351919e-05
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Logistic","r",0.316683889796337
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Logistic","K",0.735323717214721
+"Klebsiella.pneumonia..RDA.R._15_TSB_1","Logistic","N0",0.0391811832617073
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Quadratic","(Intercept)",-1.43371547495725
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Quadratic","Time",0.0397958332906331
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000235219575956996
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Logistic","r",0.668204316427375
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Logistic","K",0.839951756439184
+"Klebsiella.pneumonia..RDA.R._25_TSB_1","Logistic","N0",0.0247068837468196
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Quadratic","(Intercept)",-1.21024214544124
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Quadratic","Time",0.0386797613624907
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000235202470203057
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Logistic","r",1.16387523671154
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Logistic","K",0.903114439366566
+"Klebsiella.pneumonia..RDA.R._35_TSB_1","Logistic","N0",0.0279265504203683
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Quadratic","(Intercept)",-4.15644141730498
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Quadratic","Time",-0.00620645418571544
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Quadratic","I(Time^2)",9.08623276584365e-06
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Logistic","r",0.0123638464597229
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Logistic","K",0.00706455833745932
+"Klebsiella.pneumonia..RDA.R._5_TSB_1","Logistic","N0",0.0193482791993615
+"Klebsiella.pneumonia_15_TSB_1","Quadratic","(Intercept)",-1.62220485649884
+"Klebsiella.pneumonia_15_TSB_1","Quadratic","Time",0.0117678062082529
+"Klebsiella.pneumonia_15_TSB_1","Quadratic","I(Time^2)",-2.02888436167705e-05
+"Klebsiella.pneumonia_15_TSB_1","Logistic","r",0.289972730011376
+"Klebsiella.pneumonia_15_TSB_1","Logistic","K",0.804487368548883
+"Klebsiella.pneumonia_15_TSB_1","Logistic","N0",0.0523157144375542
+"Klebsiella.pneumonia_25_TSB_1","Quadratic","(Intercept)",-1.2711220976631
+"Klebsiella.pneumonia_25_TSB_1","Quadratic","Time",0.0378317156921552
+"Klebsiella.pneumonia_25_TSB_1","Quadratic","I(Time^2)",-0.000224047194916411
+"Klebsiella.pneumonia_25_TSB_1","Logistic","r",0.720793565657263
+"Klebsiella.pneumonia_25_TSB_1","Logistic","K",0.927459717899885
+"Klebsiella.pneumonia_25_TSB_1","Logistic","N0",0.0237470128399386
+"Klebsiella.pneumonia_35_TSB_1","Quadratic","(Intercept)",-1.19475293562076
+"Klebsiella.pneumonia_35_TSB_1","Quadratic","Time",0.040399665689406
+"Klebsiella.pneumonia_35_TSB_1","Quadratic","I(Time^2)",-0.000248934075796223
+"Klebsiella.pneumonia_35_TSB_1","Logistic","r",1.56110594853227
+"Klebsiella.pneumonia_35_TSB_1","Logistic","K",0.926431129246213
+"Klebsiella.pneumonia_35_TSB_1","Logistic","N0",0.0210998028304751
+"Klebsiella.pneumonia_5_TSB_1","Quadratic","(Intercept)",-2.61410016327028
+"Klebsiella.pneumonia_5_TSB_1","Quadratic","Time",0.00831520036035322
+"Klebsiella.pneumonia_5_TSB_1","Quadratic","I(Time^2)",-9.41503077582963e-06
+"Klebsiella.pneumonia_5_TSB_1","Logistic","r",0.0223172988862259
+"Klebsiella.pneumonia_5_TSB_1","Logistic","K",0.381566175201767
+"Klebsiella.pneumonia_5_TSB_1","Logistic","N0",0.0323450070867599
+"Lactobacillus plantarum_12_MRS broth_7","Quadratic","(Intercept)",3.39447703830575
+"Lactobacillus plantarum_12_MRS broth_7","Quadratic","Time",0.079771054979958
+"Lactobacillus plantarum_12_MRS broth_7","Quadratic","I(Time^2)",-7.68918424945415e-05
+"Lactobacillus plantarum_12_MRS broth_7","Logistic","r",0.0637379255444931
+"Lactobacillus plantarum_12_MRS broth_7","Logistic","K",2076065187.64611
+"Lactobacillus plantarum_12_MRS broth_7","Logistic","N0",46.3739483169205
+"Lactobacillus plantarum_16_MRS broth_7","Quadratic","(Intercept)",2.79697794672284
+"Lactobacillus plantarum_16_MRS broth_7","Quadratic","Time",0.289203405952575
+"Lactobacillus plantarum_16_MRS broth_7","Quadratic","I(Time^2)",-0.00107990153658582
+"Lactobacillus plantarum_16_MRS broth_7","Logistic","r",0.203125568143218
+"Lactobacillus plantarum_16_MRS broth_7","Logistic","K",1575981094.65918
+"Lactobacillus plantarum_16_MRS broth_7","Logistic","N0",41.5405316841093
+"Lactobacillus plantarum_20_MRS broth_7","Quadratic","(Intercept)",2.83740466944082
+"Lactobacillus plantarum_20_MRS broth_7","Quadratic","Time",0.455278218755785
+"Lactobacillus plantarum_20_MRS broth_7","Quadratic","I(Time^2)",-0.00262988894062487
+"Lactobacillus plantarum_20_MRS broth_7","Logistic","r",0.316248753190866
+"Lactobacillus plantarum_20_MRS broth_7","Logistic","K",2320870703.61909
+"Lactobacillus plantarum_20_MRS broth_7","Logistic","N0",55.2885782225298
+"Lactobacillus plantarum_30_MRS broth_7","Quadratic","(Intercept)",2.56522588084112
+"Lactobacillus plantarum_30_MRS broth_7","Quadratic","Time",0.996767778563263
+"Lactobacillus plantarum_30_MRS broth_7","Quadratic","I(Time^2)",-0.0115357193845817
+"Lactobacillus plantarum_30_MRS broth_7","Logistic","r",0.723729093537046
+"Lactobacillus plantarum_30_MRS broth_7","Logistic","K",4917144918.58875
+"Lactobacillus plantarum_30_MRS broth_7","Logistic","N0",32.5169149110381
+"Lactobacillus plantarum_8_MRS broth_7","Quadratic","(Intercept)",3.55966783751278
+"Lactobacillus plantarum_8_MRS broth_7","Quadratic","Time",0.019923407042825
+"Lactobacillus plantarum_8_MRS broth_7","Quadratic","I(Time^2)",-3.42549626492328e-05
+"Lactobacillus plantarum_8_MRS broth_7","Logistic","r",0.0185611412988538
+"Lactobacillus plantarum_8_MRS broth_7","Logistic","K",677.166351578764
+"Lactobacillus plantarum_8_MRS broth_7","Logistic","N0",36.5047471487053
+"Lactobacillus sakei_12_MRS broth_7","Quadratic","(Intercept)",3.42016373855276
+"Lactobacillus sakei_12_MRS broth_7","Quadratic","Time",0.252186404063606
+"Lactobacillus sakei_12_MRS broth_7","Quadratic","I(Time^2)",-0.000949327747614906
+"Lactobacillus sakei_12_MRS broth_7","Logistic","r",0.189253033384687
+"Lactobacillus sakei_12_MRS broth_7","Logistic","K",333319688.192526
+"Lactobacillus sakei_12_MRS broth_7","Logistic","N0",47.4348423713768
+"Lactobacillus sakei_16_MRS broth_7","Quadratic","(Intercept)",4.28274946729381
+"Lactobacillus sakei_16_MRS broth_7","Quadratic","Time",0.427047395283675
+"Lactobacillus sakei_16_MRS broth_7","Quadratic","I(Time^2)",-0.00262747055628399
+"Lactobacillus sakei_16_MRS broth_7","Logistic","r",0.322770519621027
+"Lactobacillus sakei_16_MRS broth_7","Logistic","K",1013153745.16201
+"Lactobacillus sakei_16_MRS broth_7","Logistic","N0",115.749064155938
+"Lactobacillus sakei_20_MRS broth_7","Quadratic","(Intercept)",3.96756580109233
+"Lactobacillus sakei_20_MRS broth_7","Quadratic","Time",0.685251951456637
+"Lactobacillus sakei_20_MRS broth_7","Quadratic","I(Time^2)",-0.00676502858536984
+"Lactobacillus sakei_20_MRS broth_7","Logistic","r",0.496961878856555
+"Lactobacillus sakei_20_MRS broth_7","Logistic","K",910826258.862614
+"Lactobacillus sakei_20_MRS broth_7","Logistic","N0",137.452558572841
+"Lactobacillus sakei_30_MRS broth_7","Quadratic","(Intercept)",3.84666064102571
+"Lactobacillus sakei_30_MRS broth_7","Quadratic","Time",1.3612021960066
+"Lactobacillus sakei_30_MRS broth_7","Quadratic","I(Time^2)",-0.025803000234891
+"Lactobacillus sakei_30_MRS broth_7","Logistic","r",1.10239076372847
+"Lactobacillus sakei_30_MRS broth_7","Logistic","K",1417117690.7063
+"Lactobacillus sakei_30_MRS broth_7","Logistic","N0",62.4358016069685
+"Lactobacillus sakei_4_MRS broth_7","Quadratic","(Intercept)",3.27750216055402
+"Lactobacillus sakei_4_MRS broth_7","Quadratic","Time",0.0289534386109339
+"Lactobacillus sakei_4_MRS broth_7","Quadratic","I(Time^2)",-1.6649666646049e-05
+"Lactobacillus sakei_4_MRS broth_7","Logistic","r",0.0271459924031369
+"Lactobacillus sakei_4_MRS broth_7","Logistic","K",64124.7306315499
+"Lactobacillus sakei_4_MRS broth_7","Logistic","N0",26.0793535960223
+"Lactobacillus sakei_8_MRS broth_7","Quadratic","(Intercept)",3.01244444749448
+"Lactobacillus sakei_8_MRS broth_7","Quadratic","Time",0.106912353010158
+"Lactobacillus sakei_8_MRS broth_7","Quadratic","I(Time^2)",-0.000173673794713738
+"Lactobacillus sakei_8_MRS broth_7","Logistic","r",0.0793319935631247
+"Lactobacillus sakei_8_MRS broth_7","Logistic","K",149798517.81934
+"Lactobacillus sakei_8_MRS broth_7","Logistic","N0",38.6836942054124
+"Lactobaciulus plantarum_10_MRS_10","Quadratic","(Intercept)",0.105087675243654
+"Lactobaciulus plantarum_10_MRS_10","Quadratic","Time",0.0631286408689373
+"Lactobaciulus plantarum_10_MRS_10","Quadratic","I(Time^2)",-0.000125643626460047
+"Lactobaciulus plantarum_15_MRS_10","Quadratic","(Intercept)",-0.639864995179998
+"Lactobaciulus plantarum_15_MRS_10","Quadratic","Time",0.213846644374953
+"Lactobaciulus plantarum_15_MRS_10","Quadratic","I(Time^2)",-0.00113495833827612
+"Lactobaciulus plantarum_20_MRS_10","Quadratic","(Intercept)",-0.908092650405305
+"Lactobaciulus plantarum_20_MRS_10","Quadratic","Time",0.438514145079756
+"Lactobaciulus plantarum_20_MRS_10","Quadratic","I(Time^2)",-0.00462858354314682
+"Lactobaciulus plantarum_20_MRS_10","Logistic","r",0.310757526977199
+"Lactobaciulus plantarum_20_MRS_10","Logistic","K",9843.59210290711
+"Lactobaciulus plantarum_20_MRS_10","Logistic","N0",0.750264249934714
+"Lactobaciulus plantarum_25_MRS_10","Quadratic","(Intercept)",-0.043380553962285
+"Lactobaciulus plantarum_25_MRS_10","Quadratic","Time",0.56478732176708
+"Lactobaciulus plantarum_25_MRS_10","Quadratic","I(Time^2)",-0.00773341384239592
+"Lactobaciulus plantarum_25_MRS_10","Logistic","r",0.481151566027892
+"Lactobaciulus plantarum_25_MRS_10","Logistic","K",11850.2127231909
+"Lactobaciulus plantarum_25_MRS_10","Logistic","N0",1.00064341455553
+"Oscillatoria agardhii Strain 97_15_Z8_8","Quadratic","(Intercept)",0.0742475685090358
+"Oscillatoria agardhii Strain 97_15_Z8_8","Quadratic","Time",0.00496814339750115
+"Oscillatoria agardhii Strain 97_15_Z8_8","Quadratic","I(Time^2)",-4.99020733533159e-06
+"Oscillatoria agardhii Strain 97_15_Z8_8","Logistic","r",0.00655276969307197
+"Oscillatoria agardhii Strain 97_15_Z8_8","Logistic","K",4.22838702277018
+"Oscillatoria agardhii Strain 97_15_Z8_8","Logistic","N0",1.08219591077351
+"Oscillatoria agardhii Strain 97_20_Z8_8","Quadratic","(Intercept)",0.0380624067316756
+"Oscillatoria agardhii Strain 97_20_Z8_8","Quadratic","Time",0.00541443316561351
+"Oscillatoria agardhii Strain 97_20_Z8_8","Quadratic","I(Time^2)",-5.14110353276189e-06
+"Oscillatoria agardhii Strain 97_20_Z8_8","Logistic","r",0.00657397460890656
+"Oscillatoria agardhii Strain 97_20_Z8_8","Logistic","K",5.03271456958957
+"Oscillatoria agardhii Strain 97_20_Z8_8","Logistic","N0",1.04393353176979
+"Oscillatoria agardhii Strain 97_25_Z8_8","Quadratic","(Intercept)",0.048912719676652
+"Oscillatoria agardhii Strain 97_25_Z8_8","Quadratic","Time",0.00655640044441344
+"Oscillatoria agardhii Strain 97_25_Z8_8","Quadratic","I(Time^2)",-6.11695333229986e-06
+"Oscillatoria agardhii Strain 97_25_Z8_8","Logistic","r",0.00708283502349516
+"Oscillatoria agardhii Strain 97_25_Z8_8","Logistic","K",7.41384465918726
+"Oscillatoria agardhii Strain 97_25_Z8_8","Logistic","N0",1.06109573962067
+"Oscillatoria agardhii Strain 97_30_Z8_8","Quadratic","(Intercept)",0.116478083038044
+"Oscillatoria agardhii Strain 97_30_Z8_8","Quadratic","Time",0.00723975857776029
+"Oscillatoria agardhii Strain 97_30_Z8_8","Quadratic","I(Time^2)",-1.32554818434398e-05
+"Oscillatoria agardhii Strain 97_30_Z8_8","Logistic","r",0.017421296262621
+"Oscillatoria agardhii Strain 97_30_Z8_8","Logistic","K",2.66101404399195
+"Oscillatoria agardhii Strain 97_30_Z8_8","Logistic","N0",1.11678326408981
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Quadratic","(Intercept)",0.548402623214826
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Quadratic","Time",0.00266641371996661
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Quadratic","I(Time^2)",-2.44784252915457e-06
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Logistic","r",0.00534455885386264
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Logistic","K",3.87433657222001
+"Oscillatoria agardhii StrainCYA 128_15_Z8_8","Logistic","N0",1.70954863738898
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Quadratic","(Intercept)",0.495903864603602
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Quadratic","Time",0.00346278310735425
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Quadratic","I(Time^2)",-3.26291764500544e-06
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Logistic","r",0.00511532848925151
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Logistic","K",4.82870735123454
+"Oscillatoria agardhii StrainCYA 128_20_Z8_8","Logistic","N0",1.65374784908825
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Quadratic","(Intercept)",0.544895213844537
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Quadratic","Time",0.00404908450991379
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Quadratic","I(Time^2)",-3.27432350895623e-06
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Logistic","r",0.00521219628571262
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Logistic","K",7.14792557734496
+"Oscillatoria agardhii StrainCYA 128_25_Z8_8","Logistic","N0",1.72854397826181
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Quadratic","(Intercept)",0.601468884514264
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Quadratic","Time",0.00476062677741712
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Quadratic","I(Time^2)",-5.36177459419441e-06
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Logistic","r",0.0085061876249458
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Logistic","K",5.38921855771771
+"Oscillatoria agardhii StrainCYA 128_30_Z8_8","Logistic","N0",1.76463294430866
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Quadratic","(Intercept)",-3.60714799876108
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Quadratic","Time",0.0243469054132047
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-4.5225373588312e-05
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Logistic","r",0.222415286265594
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Logistic","K",0.395406258956342
+"Pantoea.agglomerans..RDA.R._15_TSB_1","Logistic","N0",0.00170437183609072
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Quadratic","(Intercept)",-3.32054901739565
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Quadratic","Time",0.0816118476656632
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000490447032901736
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Logistic","r",0.390375775567691
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Logistic","K",0.520443494165025
+"Pantoea.agglomerans..RDA.R._25_TSB_1","Logistic","N0",0.00759910553645564
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Quadratic","(Intercept)",-2.59425503850283
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Quadratic","Time",0.0603265413911887
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.00039012481848332
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Logistic","r",0.689357719937695
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Logistic","K",0.459461236358791
+"Pantoea.agglomerans..RDA.R._35_TSB_1","Logistic","N0",0.00634609407393238
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Quadratic","(Intercept)",-4.43586895846498
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Quadratic","Time",0.018036180999092
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Quadratic","I(Time^2)",-2.04750286019405e-05
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Logistic","r",0.0340409793511052
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Logistic","K",0.416284792933687
+"Pantoea.agglomerans..RDA.R._5_TSB_1","Logistic","N0",0.00277834969675778
+"Pantoea.agglomerans.1_15_TSB_1","Quadratic","(Intercept)",-2.31413098448297
+"Pantoea.agglomerans.1_15_TSB_1","Quadratic","Time",0.0140274951278778
+"Pantoea.agglomerans.1_15_TSB_1","Quadratic","I(Time^2)",-2.71737477692652e-05
+"Pantoea.agglomerans.1_15_TSB_1","Logistic","r",0.292087210860184
+"Pantoea.agglomerans.1_15_TSB_1","Logistic","K",0.424714466588831
+"Pantoea.agglomerans.1_15_TSB_1","Logistic","N0",0.0044513868555877
+"Pantoea.agglomerans.1_25_TSB_1","Quadratic","(Intercept)",-3.89598792775225
+"Pantoea.agglomerans.1_25_TSB_1","Quadratic","Time",0.0665476300346734
+"Pantoea.agglomerans.1_25_TSB_1","Quadratic","I(Time^2)",-0.000278913438533388
+"Pantoea.agglomerans.1_25_TSB_1","Logistic","r",0.0950084530570907
+"Pantoea.agglomerans.1_25_TSB_1","Logistic","K",0.504423952820289
+"Pantoea.agglomerans.1_25_TSB_1","Logistic","N0",0.013745358631146
+"Pantoea.agglomerans.1_35_TSB_1","Quadratic","(Intercept)",-3.12331584662034
+"Pantoea.agglomerans.1_35_TSB_1","Quadratic","Time",0.0815136525770415
+"Pantoea.agglomerans.1_35_TSB_1","Quadratic","I(Time^2)",-0.000500464938675167
+"Pantoea.agglomerans.1_35_TSB_1","Logistic","r",0.523371342273593
+"Pantoea.agglomerans.1_35_TSB_1","Logistic","K",0.538958115157562
+"Pantoea.agglomerans.1_35_TSB_1","Logistic","N0",0.00508569915160755
+"Pantoea.agglomerans.1_5_TSB_1","Quadratic","(Intercept)",-3.18474074722388
+"Pantoea.agglomerans.1_5_TSB_1","Quadratic","Time",0.0133430832884799
+"Pantoea.agglomerans.1_5_TSB_1","Quadratic","I(Time^2)",-1.58656141292339e-05
+"Pantoea.agglomerans.1_5_TSB_1","Logistic","r",0.0583860380477359
+"Pantoea.agglomerans.1_5_TSB_1","Logistic","K",0.47369102743254
+"Pantoea.agglomerans.1_5_TSB_1","Logistic","N0",0.00236796632302635
+"Pantoea.agglomerans.2_15_TSB_1","Quadratic","(Intercept)",-2.31152434141216
+"Pantoea.agglomerans.2_15_TSB_1","Quadratic","Time",0.0116957308517279
+"Pantoea.agglomerans.2_15_TSB_1","Quadratic","I(Time^2)",-2.40966183215334e-05
+"Pantoea.agglomerans.2_15_TSB_1","Logistic","r",0.324484069778028
+"Pantoea.agglomerans.2_15_TSB_1","Logistic","K",0.308605344178948
+"Pantoea.agglomerans.2_15_TSB_1","Logistic","N0",0.0030995370995898
+"Pantoea.agglomerans.2_25_TSB_1","Quadratic","(Intercept)",-4.34168877496456
+"Pantoea.agglomerans.2_25_TSB_1","Quadratic","Time",0.0816080897723024
+"Pantoea.agglomerans.2_25_TSB_1","Quadratic","I(Time^2)",-0.000383196875506021
+"Pantoea.agglomerans.2_25_TSB_1","Logistic","r",0.142091668425054
+"Pantoea.agglomerans.2_25_TSB_1","Logistic","K",0.390162934710421
+"Pantoea.agglomerans.2_25_TSB_1","Logistic","N0",0.00709246270972892
+"Pantoea.agglomerans.2_35_TSB_1","Quadratic","(Intercept)",-3.09122522766758
+"Pantoea.agglomerans.2_35_TSB_1","Quadratic","Time",0.0792738033162778
+"Pantoea.agglomerans.2_35_TSB_1","Quadratic","I(Time^2)",-0.000508234733542861
+"Pantoea.agglomerans.2_35_TSB_1","Logistic","r",0.617272358490903
+"Pantoea.agglomerans.2_35_TSB_1","Logistic","K",0.440677578297613
+"Pantoea.agglomerans.2_35_TSB_1","Logistic","N0",0.00332708174561439
+"Pantoea.agglomerans.2_5_TSB_1","Quadratic","(Intercept)",-3.89622435852536
+"Pantoea.agglomerans.2_5_TSB_1","Quadratic","Time",0.0178912392704471
+"Pantoea.agglomerans.2_5_TSB_1","Quadratic","I(Time^2)",-2.22806058908254e-05
+"Pantoea.agglomerans.2_5_TSB_1","Logistic","r",0.0416287888660202
+"Pantoea.agglomerans.2_5_TSB_1","Logistic","K",0.44385382792312
+"Pantoea.agglomerans.2_5_TSB_1","Logistic","N0",0.00324907829716136
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Quadratic","(Intercept)",-3.11988602549764
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Quadratic","Time",0.0203103086851475
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Quadratic","I(Time^2)",-3.55194569064724e-05
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Logistic","r",0.127677891068701
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Logistic","K",0.517629332656585
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_15_TSB_1","Logistic","N0",0.00135145834868335
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Quadratic","(Intercept)",-6.58003982967421
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Quadratic","Time",0.12314337607081
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Quadratic","I(Time^2)",-0.000584448198397795
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Logistic","r",0.105985049814366
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Logistic","K",0.644791209146595
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_25_TSB_1","Logistic","N0",0.00145107717083973
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Quadratic","(Intercept)",-2.87641964092387
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Quadratic","Time",0.060394340041084
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Quadratic","I(Time^2)",-0.000429015740986822
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Logistic","r",0.375567643994834
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Logistic","K",0.218378684493468
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_35_TSB_1","Logistic","N0",0.0177607731765914
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Quadratic","(Intercept)",-5.45387833777786
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Quadratic","Time",-0.00355311426556233
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Quadratic","I(Time^2)",1.03036825306146e-05
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Logistic","r",0.00349555066477796
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Logistic","K",112270.829907848
+"Pectobacterium.carotovorum.subsp..Carotovorum.Pcc2_5_TSB_1","Logistic","N0",0.00190867558797835
+"Pseudomonas sp._12_APT Broth_9","Quadratic","(Intercept)",-4.53775772813689
+"Pseudomonas sp._12_APT Broth_9","Quadratic","Time",0.459570184664575
+"Pseudomonas sp._12_APT Broth_9","Quadratic","I(Time^2)",-0.00291173424779134
+"Pseudomonas sp._12_APT Broth_9","Logistic","r",0.292005384046832
+"Pseudomonas sp._12_APT Broth_9","Logistic","K",423018.109862775
+"Pseudomonas sp._12_APT Broth_9","Logistic","N0",0.0874045757447016
+"Pseudomonas sp._15_APT Broth_9","Quadratic","(Intercept)",-0.0464562688367033
+"Pseudomonas sp._15_APT Broth_9","Quadratic","Time",0.356239783341208
+"Pseudomonas sp._15_APT Broth_9","Quadratic","I(Time^2)",-0.00228734515495928
+"Pseudomonas sp._15_APT Broth_9","Logistic","r",0.288221080644467
+"Pseudomonas sp._15_APT Broth_9","Logistic","K",508048.90660427
+"Pseudomonas sp._15_APT Broth_9","Logistic","N0",1.07837528683634
+"Pseudomonas sp._2_APT Broth_9","Quadratic","(Intercept)",0.133781167001239
+"Pseudomonas sp._2_APT Broth_9","Quadratic","Time",0.0616941043219947
+"Pseudomonas sp._2_APT Broth_9","Quadratic","I(Time^2)",-7.15904289366726e-05
+"Pseudomonas sp._2_APT Broth_9","Logistic","r",0.0422739464477277
+"Pseudomonas sp._2_APT Broth_9","Logistic","K",546522.268096296
+"Pseudomonas sp._2_APT Broth_9","Logistic","N0",2.43337029088042
+"Pseudomonas sp._4_APT Broth_9","Quadratic","(Intercept)",-0.795220724181783
+"Pseudomonas sp._4_APT Broth_9","Quadratic","Time",0.109666662764111
+"Pseudomonas sp._4_APT Broth_9","Quadratic","I(Time^2)",-0.000191033206985678
+"Pseudomonas sp._6_APT Broth_9","Quadratic","(Intercept)",-3.59263237428619
+"Pseudomonas sp._6_APT Broth_9","Quadratic","Time",0.199357957812164
+"Pseudomonas sp._6_APT Broth_9","Quadratic","I(Time^2)",-0.000556081155961507
+"Pseudomonas sp._8_APT Broth_9","Quadratic","(Intercept)",-2.82957504840371
+"Pseudomonas sp._8_APT Broth_9","Quadratic","Time",0.2447621772805
+"Pseudomonas sp._8_APT Broth_9","Quadratic","I(Time^2)",-0.000801800131225263
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Quadratic","(Intercept)",-4.28231265304423
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Quadratic","Time",0.143956401520532
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000418247966924268
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Logistic","r",0.0886224389948075
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Logistic","K",2680.96677337889
+"Pseudomonas spp._10_Cooked Chicken Breast_3","Logistic","N0",0.0721567045260992
+"Pseudomonas spp._10_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.84883111138096
+"Pseudomonas spp._10_Raw Chicken Breast_3","Quadratic","Time",0.0895637230335168
+"Pseudomonas spp._10_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000208470241040632
+"Pseudomonas spp._10_Raw Chicken Breast_3","Logistic","r",0.0658828882009759
+"Pseudomonas spp._10_Raw Chicken Breast_3","Logistic","K",1820.96352101169
+"Pseudomonas spp._10_Raw Chicken Breast_3","Logistic","N0",0.243207124242718
+"Pseudomonas spp._10_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.76299537021038
+"Pseudomonas spp._10_Salted Chicken Breast_3","Quadratic","Time",0.0814914476383727
+"Pseudomonas spp._10_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000206995298182041
+"Pseudomonas spp._10_Salted Chicken Breast_3","Logistic","r",0.0600367037552313
+"Pseudomonas spp._10_Salted Chicken Breast_3","Logistic","K",475.851372994104
+"Pseudomonas spp._10_Salted Chicken Breast_3","Logistic","N0",0.248277517232491
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.48510411143521
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Quadratic","Time",0.175598582990115
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.00075501901770265
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Logistic","r",0.124507480782907
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Logistic","K",4698.65379706816
+"Pseudomonas spp._15_Cooked Chicken Breast_3","Logistic","N0",0.446892694892861
+"Pseudomonas spp._15_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.06111764623965
+"Pseudomonas spp._15_Raw Chicken Breast_3","Quadratic","Time",0.129728316362135
+"Pseudomonas spp._15_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000405128870111629
+"Pseudomonas spp._15_Raw Chicken Breast_3","Logistic","r",0.0959359383177329
+"Pseudomonas spp._15_Raw Chicken Breast_3","Logistic","K",5711.37530970083
+"Pseudomonas spp._15_Raw Chicken Breast_3","Logistic","N0",0.584913386515395
+"Pseudomonas spp._15_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.644443624321897
+"Pseudomonas spp._15_Salted Chicken Breast_3","Quadratic","Time",0.100872028231935
+"Pseudomonas spp._15_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000306054525894693
+"Pseudomonas spp._15_Salted Chicken Breast_3","Logistic","r",0.0774604148275166
+"Pseudomonas spp._15_Salted Chicken Breast_3","Logistic","K",1139.1643091563
+"Pseudomonas spp._15_Salted Chicken Breast_3","Logistic","N0",0.739571105949808
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.93339266458245
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Quadratic","Time",0.239377820094748
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000974286947466735
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Logistic","r",0.204468694770005
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Logistic","K",3486.92683670184
+"Pseudomonas spp._20_Cooked Chicken Breast_3","Logistic","N0",0.180037626863036
+"Pseudomonas spp._20_Raw Chicken Breast_3","Quadratic","(Intercept)",-0.803760793140266
+"Pseudomonas spp._20_Raw Chicken Breast_3","Quadratic","Time",0.201893258268126
+"Pseudomonas spp._20_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000903132841475383
+"Pseudomonas spp._20_Raw Chicken Breast_3","Logistic","r",0.160764791447761
+"Pseudomonas spp._20_Raw Chicken Breast_3","Logistic","K",4973.58783418667
+"Pseudomonas spp._20_Raw Chicken Breast_3","Logistic","N0",0.622377150327253
+"Pseudomonas spp._20_Salted Chicken Breast_3","Quadratic","(Intercept)",-2.28523916759399
+"Pseudomonas spp._20_Salted Chicken Breast_3","Quadratic","Time",0.224288550615444
+"Pseudomonas spp._20_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.00122612266972046
+"Pseudomonas spp._20_Salted Chicken Breast_3","Logistic","r",0.163108911941328
+"Pseudomonas spp._20_Salted Chicken Breast_3","Logistic","K",952.898218825368
+"Pseudomonas spp._20_Salted Chicken Breast_3","Logistic","N0",0.197403147323304
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.83022750151601
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Quadratic","Time",0.0228276466092129
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-1.08297615194452e-05
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Logistic","r",0.019342457709692
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Logistic","K",2615.32231765739
+"Pseudomonas spp._2_Cooked Chicken Breast_3","Logistic","N0",0.18443210558893
+"Pseudomonas spp._2_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.25389630911999
+"Pseudomonas spp._2_Raw Chicken Breast_3","Quadratic","Time",0.0332738956080962
+"Pseudomonas spp._2_Raw Chicken Breast_3","Quadratic","I(Time^2)",-3.2017831577025e-05
+"Pseudomonas spp._2_Raw Chicken Breast_3","Logistic","r",0.0245626136119442
+"Pseudomonas spp._2_Raw Chicken Breast_3","Logistic","K",459.84493349995
+"Pseudomonas spp._2_Raw Chicken Breast_3","Logistic","N0",0.162824487943171
+"Pseudomonas spp._2_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.13975841619569
+"Pseudomonas spp._2_Salted Chicken Breast_3","Quadratic","Time",0.0241731272300625
+"Pseudomonas spp._2_Salted Chicken Breast_3","Quadratic","I(Time^2)",-2.0478936205955e-05
+"Pseudomonas spp._2_Salted Chicken Breast_3","Logistic","r",0.0190018541899242
+"Pseudomonas spp._2_Salted Chicken Breast_3","Logistic","K",358.573220335953
+"Pseudomonas spp._2_Salted Chicken Breast_3","Logistic","N0",0.369703625598785
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Quadratic","(Intercept)",-7.29622360347651
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Quadratic","Time",0.0620085029543876
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-6.61912980660013e-05
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Logistic","r",0.034752125946229
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Logistic","K",959.360812092212
+"Pseudomonas spp._4_Cooked Chicken Breast_3","Logistic","N0",0.00993785067018304
+"Pseudomonas spp._4_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.89719752885733
+"Pseudomonas spp._4_Raw Chicken Breast_3","Quadratic","Time",0.0440916214192024
+"Pseudomonas spp._4_Raw Chicken Breast_3","Quadratic","I(Time^2)",-4.79249515161632e-05
+"Pseudomonas spp._4_Raw Chicken Breast_3","Logistic","r",0.0299953608467389
+"Pseudomonas spp._4_Raw Chicken Breast_3","Logistic","K",1154.88498593783
+"Pseudomonas spp._4_Raw Chicken Breast_3","Logistic","N0",0.128786166376424
+"Pseudomonas spp._4_Salted Chicken Breast_3","Quadratic","(Intercept)",-3.00815944586895
+"Pseudomonas spp._4_Salted Chicken Breast_3","Quadratic","Time",0.0385742235969206
+"Pseudomonas spp._4_Salted Chicken Breast_3","Quadratic","I(Time^2)",-4.56141519091431e-05
+"Pseudomonas spp._4_Salted Chicken Breast_3","Logistic","r",0.0260044523571815
+"Pseudomonas spp._4_Salted Chicken Breast_3","Logistic","K",150.240257222688
+"Pseudomonas spp._4_Salted Chicken Breast_3","Logistic","N0",0.10068276830429
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Quadratic","(Intercept)",-0.646416394493315
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Quadratic","Time",0.0102175062455205
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Quadratic","I(Time^2)",5.05126695760653e-05
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Logistic","r",0.0263322382095779
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Logistic","K",1485852064.95456
+"Pseudomonas spp._7_Cooked Chicken Breast_3","Logistic","N0",0.234101625361531
+"Pseudomonas spp._7_Raw Chicken Breast_3","Quadratic","(Intercept)",-6.3420616137646
+"Pseudomonas spp._7_Raw Chicken Breast_3","Quadratic","Time",0.0839937538888704
+"Pseudomonas spp._7_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000139767160352609
+"Pseudomonas spp._7_Raw Chicken Breast_3","Logistic","r",0.0433060333607646
+"Pseudomonas spp._7_Raw Chicken Breast_3","Logistic","K",537.706560648604
+"Pseudomonas spp._7_Raw Chicken Breast_3","Logistic","N0",0.029533843265992
+"Pseudomonas spp._7_Salted Chicken Breast_3","Quadratic","(Intercept)",-4.03468150002721
+"Pseudomonas spp._7_Salted Chicken Breast_3","Quadratic","Time",0.0573061923540263
+"Pseudomonas spp._7_Salted Chicken Breast_3","Quadratic","I(Time^2)",-8.56403312672822e-05
+"Pseudomonas spp._7_Salted Chicken Breast_3","Logistic","r",0.0349655160777175
+"Pseudomonas spp._7_Salted Chicken Breast_3","Logistic","K",258.41417399073
+"Pseudomonas spp._7_Salted Chicken Breast_3","Logistic","N0",0.0657942432064875
+"Pseudomonas.fluorescens.1_15_TSB_1","Quadratic","(Intercept)",-3.80676348132599
+"Pseudomonas.fluorescens.1_15_TSB_1","Quadratic","Time",0.0195058841196364
+"Pseudomonas.fluorescens.1_15_TSB_1","Quadratic","I(Time^2)",-3.54152097724898e-05
+"Pseudomonas.fluorescens.1_15_TSB_1","Logistic","r",0.0927906211148921
+"Pseudomonas.fluorescens.1_15_TSB_1","Logistic","K",0.20568783581278
+"Pseudomonas.fluorescens.1_15_TSB_1","Logistic","N0",0.00586540658404218
+"Pseudomonas.fluorescens.1_25_TSB_1","Quadratic","(Intercept)",-3.65176079744751
+"Pseudomonas.fluorescens.1_25_TSB_1","Quadratic","Time",0.0600251881280943
+"Pseudomonas.fluorescens.1_25_TSB_1","Quadratic","I(Time^2)",-0.000360810933691983
+"Pseudomonas.fluorescens.1_25_TSB_1","Logistic","r",0.267608441842089
+"Pseudomonas.fluorescens.1_25_TSB_1","Logistic","K",0.177809816521869
+"Pseudomonas.fluorescens.1_25_TSB_1","Logistic","N0",0.00945494921146435
+"Pseudomonas.fluorescens.1_35_TSB_1","Quadratic","(Intercept)",-3.61855409999416
+"Pseudomonas.fluorescens.1_35_TSB_1","Quadratic","Time",0.0557127582368391
+"Pseudomonas.fluorescens.1_35_TSB_1","Quadratic","I(Time^2)",-0.000318619375376195
+"Pseudomonas.fluorescens.1_35_TSB_1","Logistic","r",0.383413201927431
+"Pseudomonas.fluorescens.1_35_TSB_1","Logistic","K",0.169413930389558
+"Pseudomonas.fluorescens.1_35_TSB_1","Logistic","N0",0.00785823713797255
+"Pseudomonas.fluorescens.1_5_TSB_1","Quadratic","(Intercept)",-3.91836530752895
+"Pseudomonas.fluorescens.1_5_TSB_1","Quadratic","Time",0.0133351439914036
+"Pseudomonas.fluorescens.1_5_TSB_1","Quadratic","I(Time^2)",-1.56992775649136e-05
+"Pseudomonas.fluorescens.1_5_TSB_1","Logistic","r",0.0306724706535312
+"Pseudomonas.fluorescens.1_5_TSB_1","Logistic","K",0.243382187362491
+"Pseudomonas.fluorescens.1_5_TSB_1","Logistic","N0",0.00563644296412733
+"Pseudomonas.fluorescens.2_15_TSB_1","Quadratic","(Intercept)",-3.28120895396601
+"Pseudomonas.fluorescens.2_15_TSB_1","Quadratic","Time",0.0154946712966467
+"Pseudomonas.fluorescens.2_15_TSB_1","Quadratic","I(Time^2)",-2.6327543887128e-05
+"Pseudomonas.fluorescens.2_15_TSB_1","Logistic","r",0.107777100101128
+"Pseudomonas.fluorescens.2_15_TSB_1","Logistic","K",0.252319045385836
+"Pseudomonas.fluorescens.2_15_TSB_1","Logistic","N0",0.0104966957197321
+"Pseudomonas.fluorescens.2_25_TSB_1","Quadratic","(Intercept)",-3.37770336915608
+"Pseudomonas.fluorescens.2_25_TSB_1","Quadratic","Time",0.0527555772055562
+"Pseudomonas.fluorescens.2_25_TSB_1","Quadratic","I(Time^2)",-0.000274902114713305
+"Pseudomonas.fluorescens.2_25_TSB_1","Logistic","r",0.207155722982927
+"Pseudomonas.fluorescens.2_25_TSB_1","Logistic","K",0.286282040109771
+"Pseudomonas.fluorescens.2_25_TSB_1","Logistic","N0",0.0140730079209556
+"Pseudomonas.fluorescens.2_35_TSB_1","Quadratic","(Intercept)",-2.73064900789301
+"Pseudomonas.fluorescens.2_35_TSB_1","Quadratic","Time",0.0400239099964561
+"Pseudomonas.fluorescens.2_35_TSB_1","Quadratic","I(Time^2)",-0.000248655978684069
+"Pseudomonas.fluorescens.2_35_TSB_1","Logistic","r",0.34841444351311
+"Pseudomonas.fluorescens.2_35_TSB_1","Logistic","K",0.221891292873733
+"Pseudomonas.fluorescens.2_35_TSB_1","Logistic","N0",0.0179776889373665
+"Pseudomonas.fluorescens.2_5_TSB_1","Quadratic","(Intercept)",-5.30212244581729
+"Pseudomonas.fluorescens.2_5_TSB_1","Quadratic","Time",0.0154947856634086
+"Pseudomonas.fluorescens.2_5_TSB_1","Quadratic","I(Time^2)",-1.63064963668493e-05
+"Pseudomonas.fluorescens.2_5_TSB_1","Logistic","r",0.0186363969218046
+"Pseudomonas.fluorescens.2_5_TSB_1","Logistic","K",0.154793178142002
+"Pseudomonas.fluorescens.2_5_TSB_1","Logistic","N0",0.00347188936915665
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.78215495720974
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Quadratic","Time",0.11542587258026
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.0657713222593703
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Logistic","r",0.445441650798726
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Logistic","K",2278780003.28375
+"Salmonella Typhimurium_10_Vacuum Beef Striploins_4","Logistic","N0",35.1868644147659
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Quadratic","(Intercept)",3.5068598649251
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Quadratic","Time",0.264454707987025
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Quadratic","I(Time^2)",-0.000374748088027156
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Logistic","r",0.293491091627476
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Logistic","K",1299.31326147557
+"Salmonella Typhimurium_12_C02 Beef Striploins_4","Logistic","N0",31.8331477177939
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.32366955838083
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Quadratic","Time",0.903983150707759
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.0254003119222035
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Logistic","r",0.82456158468418
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Logistic","K",4821.43916987806
+"Salmonella Typhimurium_12_Vacuum Beef Striploins_4","Logistic","N0",29.7809799059121
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Quadratic","(Intercept)",3.64941481514455
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Quadratic","Time",0.647844202852747
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.0134879630190248
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Logistic","r",0.733859069519506
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Logistic","K",54991.3238801767
+"Salmonella Typhimurium_15_C02 Beef Striploins_4","Logistic","N0",35.8149058553671
+"Salmonella Typhimurium_15_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.78420891013793
+"Salmonella Typhimurium_15_Vacuum Beef Striploins_4","Quadratic","Time",2.19044222210324
+"Salmonella Typhimurium_15_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.224435926368678
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Quadratic","(Intercept)",4.22577762506968
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Quadratic","Time",3.4210336824383
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Quadratic","I(Time^2)",-0.48955974060917
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Logistic","r",3.09067010753196
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Logistic","K",9586.38474508068
+"Salmonella Typhimurium_20_C02 Beef Striploins_4","Logistic","N0",68.8094001500252
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.93062611548613
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Quadratic","Time",4.37129742326037
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.701581113888609
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Logistic","r",3.82653467575317
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Logistic","K",16287.3522255787
+"Salmonella Typhimurium_20_Vacuum Beef Striploins_4","Logistic","N0",51.3611348396135
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Quadratic","(Intercept)",3.87738661237746
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Quadratic","Time",8.09738898908928
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Quadratic","I(Time^2)",-3.41575598350919
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Logistic","r",6.44412405415305
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Logistic","K",5824.22537052108
+"Salmonella Typhimurium_30_C02 Beef Striploins_4","Logistic","N0",52.7747026947929
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.44965115629045
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Quadratic","Time",8.57812802087803
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-3.431691532819
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Logistic","r",6.79504020083092
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Logistic","K",6760.52561417383
+"Salmonella Typhimurium_30_Vacuum Beef Striploins_4","Logistic","N0",33.9409350963665
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.10921242000121
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Quadratic","Time",-0.434984036160066
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.0892598480076022
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Logistic","r",0.101995383264088
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Logistic","K",153163029.717099
+"Salmonella Typhimurium_8_Vacuum Beef Striploins_4","Logistic","N0",38.8349191867525
+"Serratia marcescens_10_Pasteurised Double Cream_5","Quadratic","(Intercept)",-0.101039898058524
+"Serratia marcescens_10_Pasteurised Double Cream_5","Quadratic","Time",0.000766862685824301
+"Serratia marcescens_10_Pasteurised Double Cream_5","Quadratic","I(Time^2)",5.39764690325581e-07
+"Serratia marcescens_10_Pasteurised Full-fat Milk_5","Quadratic","(Intercept)",-0.709449336201489
+"Serratia marcescens_10_Pasteurised Full-fat Milk_5","Quadratic","Time",0.00301670923665563
+"Serratia marcescens_10_Pasteurised Full-fat Milk_5","Quadratic","I(Time^2)",-2.524626569425e-07
+"Serratia marcescens_10_Pasteurised Skim Milk_5","Quadratic","(Intercept)",-0.1474392548334
+"Serratia marcescens_10_Pasteurised Skim Milk_5","Quadratic","Time",0.00319133000957045
+"Serratia marcescens_10_Pasteurised Skim Milk_5","Quadratic","I(Time^2)",-3.25623613999723e-07
+"Serratia marcescens_10_UHT Double Cream_5","Quadratic","(Intercept)",-0.2315027481322
+"Serratia marcescens_10_UHT Double Cream_5","Quadratic","Time",0.00251919848633736
+"Serratia marcescens_10_UHT Double Cream_5","Quadratic","I(Time^2)",-1.55188885830992e-07
+"Serratia marcescens_10_UHT Full-fat Milk_5","Quadratic","(Intercept)",-0.361435767797045
+"Serratia marcescens_10_UHT Full-fat Milk_5","Quadratic","Time",0.0022313952537061
+"Serratia marcescens_10_UHT Full-fat Milk_5","Quadratic","I(Time^2)",-3.56712733244685e-08
+"Serratia marcescens_10_UHT Skim Milk_5","Quadratic","(Intercept)",-0.124740810838293
+"Serratia marcescens_10_UHT Skim Milk_5","Quadratic","Time",0.00231649179178171
+"Serratia marcescens_10_UHT Skim Milk_5","Quadratic","I(Time^2)",-1.37486007027715e-07
+"Serratia marcescens_15_Pasteurised Double Cream_5","Quadratic","(Intercept)",-0.627076245455799
+"Serratia marcescens_15_Pasteurised Double Cream_5","Quadratic","Time",0.00690572306257987
+"Serratia marcescens_15_Pasteurised Double Cream_5","Quadratic","I(Time^2)",-1.3815052853663e-06
+"Serratia marcescens_15_Pasteurised Double Cream_5","Logistic","r",0.0055121933078294
+"Serratia marcescens_15_Pasteurised Double Cream_5","Logistic","K",2319.86955961571
+"Serratia marcescens_15_Pasteurised Double Cream_5","Logistic","N0",0.576133777175801
+"Serratia marcescens_15_Pasteurised Full-fat Milk_5","Quadratic","(Intercept)",-0.388602319041488
+"Serratia marcescens_15_Pasteurised Full-fat Milk_5","Quadratic","Time",0.00645015413344692
+"Serratia marcescens_15_Pasteurised Full-fat Milk_5","Quadratic","I(Time^2)",-1.23633437882921e-06
+"Serratia marcescens_15_Pasteurised Skim Milk_5","Quadratic","(Intercept)",-0.876574416764358
+"Serratia marcescens_15_Pasteurised Skim Milk_5","Quadratic","Time",0.00912910740412038
+"Serratia marcescens_15_Pasteurised Skim Milk_5","Quadratic","I(Time^2)",-2.10389474054602e-06
+"Serratia marcescens_15_UHT Double Cream_5","Quadratic","(Intercept)",-0.4462273176814
+"Serratia marcescens_15_UHT Double Cream_5","Quadratic","Time",0.00849004363161172
+"Serratia marcescens_15_UHT Double Cream_5","Quadratic","I(Time^2)",-1.91592083885299e-06
+"Serratia marcescens_15_UHT Double Cream_5","Logistic","r",0.00672391921959861
+"Serratia marcescens_15_UHT Double Cream_5","Logistic","K",3174.19423214628
+"Serratia marcescens_15_UHT Double Cream_5","Logistic","N0",0.735138983699219
+"Serratia marcescens_15_UHT Full-fat Milk_5","Quadratic","(Intercept)",-0.657753435220278
+"Serratia marcescens_15_UHT Full-fat Milk_5","Quadratic","Time",0.00754864605761475
+"Serratia marcescens_15_UHT Full-fat Milk_5","Quadratic","I(Time^2)",-1.60197988640277e-06
+"Serratia marcescens_15_UHT Full-fat Milk_5","Logistic","r",0.00592954330090055
+"Serratia marcescens_15_UHT Full-fat Milk_5","Logistic","K",2540.23441189973
+"Serratia marcescens_15_UHT Full-fat Milk_5","Logistic","N0",0.589194998958759
+"Serratia marcescens_15_UHT Skim Milk_5","Quadratic","(Intercept)",-4.8539874982697
+"Serratia marcescens_15_UHT Skim Milk_5","Quadratic","Time",0.0125126479455533
+"Serratia marcescens_15_UHT Skim Milk_5","Quadratic","I(Time^2)",-2.82455741048215e-06
+"Serratia marcescens_6_Pasteurised Double Cream_5","Quadratic","(Intercept)",-1.13925216023009
+"Serratia marcescens_6_Pasteurised Double Cream_5","Quadratic","Time",0.00115754403015485
+"Serratia marcescens_6_Pasteurised Double Cream_5","Quadratic","I(Time^2)",-2.98939687567279e-08
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Quadratic","(Intercept)",-0.117972056577522
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Quadratic","Time",0.000499237213654118
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Quadratic","I(Time^2)",6.02329739285068e-09
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Logistic","r",0.000581270582949102
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Logistic","K",6033.81283910966
+"Serratia marcescens_6_Pasteurised Full-fat Milk_5","Logistic","N0",0.748213423113248
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Quadratic","(Intercept)",-0.178605665432852
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Quadratic","Time",0.000488226172005223
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Quadratic","I(Time^2)",2.20711392912963e-09
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Logistic","r",6.03529892068998e-14
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Logistic","K",1e-08
+"Serratia marcescens_6_Pasteurised Skim Milk_5","Logistic","N0",159.714643405868
+"Serratia marcescens_6_UHT Double Cream_5","Quadratic","(Intercept)",-0.242174269608365
+"Serratia marcescens_6_UHT Double Cream_5","Quadratic","Time",0.000886960824611094
+"Serratia marcescens_6_UHT Double Cream_5","Quadratic","I(Time^2)",-2.32297079019996e-08
+"Serratia marcescens_6_UHT Double Cream_5","Logistic","r",0.000757260189539723
+"Serratia marcescens_6_UHT Double Cream_5","Logistic","K",875.195437802753
+"Serratia marcescens_6_UHT Double Cream_5","Logistic","N0",0.830081775079025
+"Serratia marcescens_6_UHT Full-fat Milk_5","Quadratic","(Intercept)",-0.135994828813483
+"Serratia marcescens_6_UHT Full-fat Milk_5","Quadratic","Time",2.36942866562462e-05
+"Serratia marcescens_6_UHT Full-fat Milk_5","Quadratic","I(Time^2)",8.78672454865763e-08
+"Serratia marcescens_6_UHT Full-fat Milk_5","Logistic","r",0.0113125167143961
+"Serratia marcescens_6_UHT Full-fat Milk_5","Logistic","K",36.5984950647882
+"Serratia marcescens_6_UHT Full-fat Milk_5","Logistic","N0",0.769930848616095
+"Serratia marcescens_6_UHT Skim Milk_5","Quadratic","(Intercept)",-0.300371189727798
+"Serratia marcescens_6_UHT Skim Milk_5","Quadratic","Time",0.000198156311494505
+"Serratia marcescens_6_UHT Skim Milk_5","Quadratic","I(Time^2)",2.23038503087003e-08
+"Serratia marcescens_6_UHT Skim Milk_5","Logistic","r",0.000509977052200862
+"Serratia marcescens_6_UHT Skim Milk_5","Logistic","K",1327954715.55589
+"Serratia marcescens_6_UHT Skim Milk_5","Logistic","N0",0.391604088449426
+"Spoilage_10_C02 Beef Striploins_4","Quadratic","(Intercept)",4.84852031852602
+"Spoilage_10_C02 Beef Striploins_4","Quadratic","Time",0.548738524755206
+"Spoilage_10_C02 Beef Striploins_4","Quadratic","I(Time^2)",-0.010628669980244
+"Spoilage_10_C02 Beef Striploins_4","Logistic","r",0.52855659566803
+"Spoilage_10_C02 Beef Striploins_4","Logistic","K",22069.4206556067
+"Spoilage_10_C02 Beef Striploins_4","Logistic","N0",120.20939692427
+"Spoilage_10_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.92630402828565
+"Spoilage_10_Vacuum Beef Striploins_4","Quadratic","Time",1.73595081162327
+"Spoilage_10_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.164538482962208
+"Spoilage_10_Vacuum Beef Striploins_4","Logistic","r",1.45620441991037
+"Spoilage_10_Vacuum Beef Striploins_4","Logistic","K",13179.9607337298
+"Spoilage_10_Vacuum Beef Striploins_4","Logistic","N0",147.204886689766
+"Spoilage_12_C02 Beef Striploins_4","Quadratic","(Intercept)",2.75526476118996
+"Spoilage_12_C02 Beef Striploins_4","Quadratic","Time",1.43457553224216
+"Spoilage_12_C02 Beef Striploins_4","Quadratic","I(Time^2)",-0.0751648565522735
+"Spoilage_12_C02 Beef Striploins_4","Logistic","r",1.06398844776829
+"Spoilage_12_C02 Beef Striploins_4","Logistic","K",14019.3851963581
+"Spoilage_12_C02 Beef Striploins_4","Logistic","N0",22.4110973248421
+"Spoilage_12_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.29207292759038
+"Spoilage_12_Vacuum Beef Striploins_4","Quadratic","Time",0.981717939191093
+"Spoilage_12_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.0284737672797971
+"Spoilage_12_Vacuum Beef Striploins_4","Logistic","r",1.13903218190099
+"Spoilage_12_Vacuum Beef Striploins_4","Logistic","K",211883.7506881
+"Spoilage_12_Vacuum Beef Striploins_4","Logistic","N0",65.4070503331506
+"Spoilage_15_C02 Beef Striploins_4","Quadratic","(Intercept)",4.55244877013874
+"Spoilage_15_C02 Beef Striploins_4","Quadratic","Time",0.268468840269043
+"Spoilage_15_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.0843116474965096
+"Spoilage_15_C02 Beef Striploins_4","Logistic","r",0.762499117787511
+"Spoilage_15_C02 Beef Striploins_4","Logistic","K",110810004218.5
+"Spoilage_15_C02 Beef Striploins_4","Logistic","N0",63.9208963276749
+"Spoilage_15_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.93023380047072
+"Spoilage_15_Vacuum Beef Striploins_4","Quadratic","Time",0.834686289090603
+"Spoilage_15_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",0.0895634647933647
+"Spoilage_20_C02 Beef Striploins_4","Quadratic","(Intercept)",5.26307965045197
+"Spoilage_20_C02 Beef Striploins_4","Quadratic","Time",0.603966027045103
+"Spoilage_20_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.683289032058413
+"Spoilage_20_C02 Beef Striploins_4","Logistic","r",1.80961796953496
+"Spoilage_20_C02 Beef Striploins_4","Logistic","K",120047823992.648
+"Spoilage_20_C02 Beef Striploins_4","Logistic","N0",148.17325362533
+"Spoilage_20_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.84680789480297
+"Spoilage_20_Vacuum Beef Striploins_4","Quadratic","Time",2.87039879192856
+"Spoilage_20_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.124866197653579
+"Spoilage_20_Vacuum Beef Striploins_4","Logistic","r",2.88813442268654
+"Spoilage_20_Vacuum Beef Striploins_4","Logistic","K",34977.6500569983
+"Spoilage_20_Vacuum Beef Striploins_4","Logistic","N0",122.828078855778
+"Spoilage_30_C02 Beef Striploins_4","Quadratic","(Intercept)",4.42226118310619
+"Spoilage_30_C02 Beef Striploins_4","Quadratic","Time",2.25774911189087
+"Spoilage_30_C02 Beef Striploins_4","Quadratic","I(Time^2)",0.553599536695321
+"Spoilage_30_C02 Beef Striploins_4","Logistic","r",3.0177195075935
+"Spoilage_30_C02 Beef Striploins_4","Logistic","K",121466425916.058
+"Spoilage_30_C02 Beef Striploins_4","Logistic","N0",72.7887255349659
+"Spoilage_30_Vacuum Beef Striploins_4","Quadratic","(Intercept)",3.90120613298566
+"Spoilage_30_Vacuum Beef Striploins_4","Quadratic","Time",8.28514884407315
+"Spoilage_30_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-3.26749930984748
+"Spoilage_8_Vacuum Beef Striploins_4","Quadratic","(Intercept)",4.17514810704576
+"Spoilage_8_Vacuum Beef Striploins_4","Quadratic","Time",1.29134315832645
+"Spoilage_8_Vacuum Beef Striploins_4","Quadratic","I(Time^2)",-0.0561003611016543
+"Spoilage_8_Vacuum Beef Striploins_4","Logistic","r",1.19238906361987
+"Spoilage_8_Vacuum Beef Striploins_4","Logistic","K",20767.1129576849
+"Spoilage_8_Vacuum Beef Striploins_4","Logistic","N0",62.9800029350358
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.09400370243793
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Quadratic","Time",0.0781291237722604
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000184889241123564
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Logistic","r",0.0553502664312161
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Logistic","K",392.171317672875
+"Staphylococcus spp._10_Cooked Chicken Breast_3","Logistic","N0",0.225794652399738
+"Staphylococcus spp._10_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.00436819229253
+"Staphylococcus spp._10_Raw Chicken Breast_3","Quadratic","Time",0.0767400971776392
+"Staphylococcus spp._10_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000133055311392784
+"Staphylococcus spp._10_Raw Chicken Breast_3","Logistic","r",0.0624278567750101
+"Staphylococcus spp._10_Raw Chicken Breast_3","Logistic","K",1975.84579910698
+"Staphylococcus spp._10_Raw Chicken Breast_3","Logistic","N0",0.165207420310632
+"Staphylococcus spp._10_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.11323344176625
+"Staphylococcus spp._10_Salted Chicken Breast_3","Quadratic","Time",0.0803029859466297
+"Staphylococcus spp._10_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.000184316395357026
+"Staphylococcus spp._10_Salted Chicken Breast_3","Logistic","r",0.0576361279074396
+"Staphylococcus spp._10_Salted Chicken Breast_3","Logistic","K",1787.61191059369
+"Staphylococcus spp._10_Salted Chicken Breast_3","Logistic","N0",0.545097157215685
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Quadratic","(Intercept)",-2.75974090486451
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Quadratic","Time",0.148625546352794
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000530778475042082
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Logistic","r",0.0980460192016113
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Logistic","K",1589.95135998375
+"Staphylococcus spp._15_Cooked Chicken Breast_3","Logistic","N0",0.178917382960925
+"Staphylococcus spp._15_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.14546707461038
+"Staphylococcus spp._15_Raw Chicken Breast_3","Quadratic","Time",0.124919492203174
+"Staphylococcus spp._15_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000394785731626521
+"Staphylococcus spp._15_Raw Chicken Breast_3","Logistic","r",0.0887628993935821
+"Staphylococcus spp._15_Raw Chicken Breast_3","Logistic","K",1102.35622076357
+"Staphylococcus spp._15_Raw Chicken Breast_3","Logistic","N0",0.247135061480047
+"Staphylococcus spp._15_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.393062497125534
+"Staphylococcus spp._15_Salted Chicken Breast_3","Quadratic","Time",0.0890363297678132
+"Staphylococcus spp._15_Salted Chicken Breast_3","Quadratic","I(Time^2)",-0.00015547941633045
+"Staphylococcus spp._15_Salted Chicken Breast_3","Logistic","r",0.0793182671778595
+"Staphylococcus spp._15_Salted Chicken Breast_3","Logistic","K",3556.60468658812
+"Staphylococcus spp._15_Salted Chicken Breast_3","Logistic","N0",0.732869908040096
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.09929895220169
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Quadratic","Time",0.173194407729216
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-0.000447528135349081
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Logistic","r",0.152916103850758
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Logistic","K",4376.82197601582
+"Staphylococcus spp._20_Cooked Chicken Breast_3","Logistic","N0",0.395608351878908
+"Staphylococcus spp._20_Raw Chicken Breast_3","Quadratic","(Intercept)",-0.346273361210637
+"Staphylococcus spp._20_Raw Chicken Breast_3","Quadratic","Time",0.165991088824998
+"Staphylococcus spp._20_Raw Chicken Breast_3","Quadratic","I(Time^2)",-0.000567332206636463
+"Staphylococcus spp._20_Raw Chicken Breast_3","Logistic","r",0.14924328267521
+"Staphylococcus spp._20_Raw Chicken Breast_3","Logistic","K",1574.43790484887
+"Staphylococcus spp._20_Raw Chicken Breast_3","Logistic","N0",0.75661260197263
+"Staphylococcus spp._20_Salted Chicken Breast_3","Quadratic","(Intercept)",-0.485146352588234
+"Staphylococcus spp._20_Salted Chicken Breast_3","Quadratic","Time",0.132715916675304
+"Staphylococcus spp._20_Salted Chicken Breast_3","Quadratic","I(Time^2)",5.92537345725542e-05
+"Staphylococcus spp._20_Salted Chicken Breast_3","Logistic","r",0.139289531218011
+"Staphylococcus spp._20_Salted Chicken Breast_3","Logistic","K",14296.7455587038
+"Staphylococcus spp._20_Salted Chicken Breast_3","Logistic","N0",0.55609681347806
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.50497600511246
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Quadratic","Time",0.0165865026213532
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-1.4731912832648e-05
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Logistic","r",0.0130064323723124
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Logistic","K",25.1590729558663
+"Staphylococcus spp._2_Cooked Chicken Breast_3","Logistic","N0",0.263259166806403
+"Staphylococcus spp._2_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.92951225301597
+"Staphylococcus spp._2_Raw Chicken Breast_3","Quadratic","Time",0.0166395992709525
+"Staphylococcus spp._2_Raw Chicken Breast_3","Quadratic","I(Time^2)",-1.49965826702034e-06
+"Staphylococcus spp._2_Raw Chicken Breast_3","Logistic","r",0.0167506669680415
+"Staphylococcus spp._2_Raw Chicken Breast_3","Logistic","K",1893.17574514153
+"Staphylococcus spp._2_Raw Chicken Breast_3","Logistic","N0",0.131738949257363
+"Staphylococcus spp._2_Salted Chicken Breast_3","Quadratic","(Intercept)",-1.15202598013908
+"Staphylococcus spp._2_Salted Chicken Breast_3","Quadratic","Time",0.0144745532593736
+"Staphylococcus spp._2_Salted Chicken Breast_3","Quadratic","I(Time^2)",-1.56817169902002e-06
+"Staphylococcus spp._2_Salted Chicken Breast_3","Logistic","r",0.0143414628469365
+"Staphylococcus spp._2_Salted Chicken Breast_3","Logistic","K",1598.71129110021
+"Staphylococcus spp._2_Salted Chicken Breast_3","Logistic","N0",0.303652809178092
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Quadratic","(Intercept)",-5.31772626187086
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Quadratic","Time",0.0452924054157003
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Quadratic","I(Time^2)",-4.583460211785e-05
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Logistic","r",0.0275502106827098
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Logistic","K",279.341780618281
+"Staphylococcus spp._4_Cooked Chicken Breast_3","Logistic","N0",0.0243919339323656
+"Staphylococcus spp._4_Raw Chicken Breast_3","Quadratic","(Intercept)",-2.02730977052707
+"Staphylococcus spp._4_Raw Chicken Breast_3","Quadratic","Time",0.0230733580963188
+"Staphylococcus spp._4_Raw Chicken Breast_3","Quadratic","I(Time^2)",-1.62197724774263e-05
+"Staphylococcus spp._4_Raw Chicken Breast_3","Logistic","r",0.0172323607038949
+"Staphylococcus spp._4_Raw Chicken Breast_3","Logistic","K",338.386660303144
+"Staphylococcus spp._4_Raw Chicken Breast_3","Logistic","N0",0.194461992248839
+"Staphylococcus spp._4_Salted Chicken Breast_3","Quadratic","(Intercept)",-3.93924673402519
+"Staphylococcus spp._4_Salted Chicken Breast_3","Quadratic","Time",0.0398420640764403
+"Staphylococcus spp._4_Salted Chicken Breast_3","Quadratic","I(Time^2)",-3.97622731149246e-05
+"Staphylococcus spp._4_Salted Chicken Breast_3","Logistic","r",0.0221824184926372
+"Staphylococcus spp._4_Salted Chicken Breast_3","Logistic","K",434.513556902914
+"Staphylococcus spp._4_Salted Chicken Breast_3","Logistic","N0",0.126207775671775
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Quadratic","(Intercept)",-1.12834227773531
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Quadratic","Time",0.0149985239670399
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Quadratic","I(Time^2)",1.52365421435201e-05
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Logistic","r",0.0219730124767421
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Logistic","K",1684.77841467445
+"Staphylococcus spp._7_Cooked Chicken Breast_3","Logistic","N0",0.182725796533855
+"Staphylococcus spp._7_Raw Chicken Breast_3","Quadratic","(Intercept)",-1.19480003027653
+"Staphylococcus spp._7_Raw Chicken Breast_3","Quadratic","Time",0.0440920096322902
+"Staphylococcus spp._7_Raw Chicken Breast_3","Quadratic","I(Time^2)",-5.02534554642179e-05
+"Staphylococcus spp._7_Raw Chicken Breast_3","Logistic","r",0.0359362715260015
+"Staphylococcus spp._7_Raw Chicken Breast_3","Logistic","K",1726.60118704374
+"Staphylococcus spp._7_Raw Chicken Breast_3","Logistic","N0",0.344223921101412
+"Staphylococcus spp._7_Salted Chicken Breast_3","Quadratic","(Intercept)",-2.09454254188441
+"Staphylococcus spp._7_Salted Chicken Breast_3","Quadratic","Time",0.0442326848185173
+"Staphylococcus spp._7_Salted Chicken Breast_3","Quadratic","I(Time^2)",-4.43483914990814e-05
+"Staphylococcus spp._7_Salted Chicken Breast_3","Logistic","r",0.0347838474642886
+"Staphylococcus spp._7_Salted Chicken Breast_3","Logistic","K",1712.97767218922
+"Staphylococcus spp._7_Salted Chicken Breast_3","Logistic","N0",0.175608695163144
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Quadratic","(Intercept)",-3.79271097961099
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Quadratic","Time",0.0175582625873584
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Quadratic","I(Time^2)",-2.96488266175052e-05
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Logistic","r",0.0686650339571392
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Logistic","K",0.208406110843349
+"Stenotrophomonas.maltophilia..RDA.R._15_TSB_1","Logistic","N0",0.00374323779643619
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Quadratic","(Intercept)",-4.03487991405014
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Quadratic","Time",0.0649976582224598
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Quadratic","I(Time^2)",-0.000353415649287585
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Logistic","r",0.219063470755165
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Logistic","K",0.211796384807022
+"Stenotrophomonas.maltophilia..RDA.R._25_TSB_1","Logistic","N0",0.00761738408737404
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Quadratic","(Intercept)",-3.80940415125356
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Quadratic","Time",0.0535145183846742
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Quadratic","I(Time^2)",-0.000319480700348851
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Logistic","r",0.381707287328819
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Logistic","K",0.121759554561634
+"Stenotrophomonas.maltophilia..RDA.R._35_TSB_1","Logistic","N0",0.00649355480228083
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Quadratic","(Intercept)",-5.25440241190949
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Quadratic","Time",0.0132749590650952
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Quadratic","I(Time^2)",-1.26873962427819e-05
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Logistic","r",0.0132622217572219
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Logistic","K",0.153666238275969
+"Stenotrophomonas.maltophilia..RDA.R._5_TSB_1","Logistic","N0",0.00488017058991671
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Quadratic","(Intercept)",-3.20410769163449
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Quadratic","Time",0.0145896145815615
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Quadratic","I(Time^2)",-2.76267294502506e-05
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Logistic","r",0.235543271341374
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Logistic","K",0.182540107384217
+"Stenotrophomonas.maltophilia.1_15_TSB_1","Logistic","N0",0.0041582190464226
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Quadratic","(Intercept)",-3.08332295571849
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Quadratic","Time",0.0462705290559478
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Quadratic","I(Time^2)",-0.000281938009966211
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Logistic","r",0.25695715842467
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Logistic","K",0.198286819145742
+"Stenotrophomonas.maltophilia.1_25_TSB_1","Logistic","N0",0.0183821997054554
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Quadratic","(Intercept)",-3.02024138416099
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Quadratic","Time",0.0432045083758321
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Quadratic","I(Time^2)",-0.000253892515379647
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Logistic","r",0.277578450197034
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Logistic","K",0.202961973186967
+"Stenotrophomonas.maltophilia.1_35_TSB_1","Logistic","N0",0.0202040531074349
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Quadratic","(Intercept)",-4.08931547682101
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Quadratic","Time",0.0127332364602116
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Quadratic","I(Time^2)",-1.44214494527344e-05
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Logistic","r",0.0254055420142392
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Logistic","K",0.209863329075372
+"Stenotrophomonas.maltophilia.1_5_TSB_1","Logistic","N0",0.00649602501409742
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Quadratic","(Intercept)",-3.43081562247745
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Quadratic","Time",0.018408279920376
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Quadratic","I(Time^2)",-3.51525363285901e-05
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Logistic","r",0.426335865763071
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Logistic","K",0.197734869460844
+"Stenotrophomonas.maltophilia.2_15_TSB_1","Logistic","N0",0.00180532309348059
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Quadratic","(Intercept)",-3.30509175022872
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Quadratic","Time",0.0655404551886691
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Quadratic","I(Time^2)",-0.00034623791220708
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Logistic","r",0.193238872946846
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Logistic","K",0.489152041601092
+"Stenotrophomonas.maltophilia.2_25_TSB_1","Logistic","N0",0.019434997982746
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Quadratic","(Intercept)",-3.06700616214584
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Quadratic","Time",0.0373938579162667
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Quadratic","I(Time^2)",-0.000223081234769559
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Logistic","r",0.274205237800809
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Logistic","K",0.161640632341973
+"Stenotrophomonas.maltophilia.2_35_TSB_1","Logistic","N0",0.0200083390726723
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Quadratic","(Intercept)",-4.15735925801111
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Quadratic","Time",0.0123342934697576
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Quadratic","I(Time^2)",-1.28070394192815e-05
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Logistic","r",0.0161107754289885
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Logistic","K",0.25515499057933
+"Stenotrophomonas.maltophilia.2_5_TSB_1","Logistic","N0",0.0112426473432226
+"Tetraselmis tetrahele_16_ESAW_2","Quadratic","(Intercept)",7.20016857164895
+"Tetraselmis tetrahele_16_ESAW_2","Quadratic","Time",0.00871424804376958
+"Tetraselmis tetrahele_16_ESAW_2","Quadratic","I(Time^2)",-6.54995114775979e-06
+"Tetraselmis tetrahele_25_ESAW_2","Quadratic","(Intercept)",7.73398342432695
+"Tetraselmis tetrahele_25_ESAW_2","Quadratic","Time",0.00449121397233238
+"Tetraselmis tetrahele_25_ESAW_2","Quadratic","I(Time^2)",-2.93866606803403e-06
+"Tetraselmis tetrahele_32_ESAW_2","Quadratic","(Intercept)",5.95497053465696
+"Tetraselmis tetrahele_32_ESAW_2","Quadratic","Time",0.00497146426730562
+"Tetraselmis tetrahele_32_ESAW_2","Quadratic","I(Time^2)",-2.46730741353007e-06
+"Tetraselmis tetrahele_5_ESAW_2","Quadratic","(Intercept)",5.98713200734688
+"Tetraselmis tetrahele_5_ESAW_2","Quadratic","Time",0.00805654128201029
+"Tetraselmis tetrahele_5_ESAW_2","Quadratic","I(Time^2)",-4.08567474008074e-06
+"Tetraselmis tetrahele_8_ESAW_2","Quadratic","(Intercept)",6.48053617416327
+"Tetraselmis tetrahele_8_ESAW_2","Quadratic","Time",0.00965337597152239
+"Tetraselmis tetrahele_8_ESAW_2","Quadratic","I(Time^2)",-6.37430094133866e-06
+"Weissella viridescens_12_MRS broth_7","Quadratic","(Intercept)",3.38884324603679
+"Weissella viridescens_12_MRS broth_7","Quadratic","Time",0.272433493978183
+"Weissella viridescens_12_MRS broth_7","Quadratic","I(Time^2)",-0.00106951965073308
+"Weissella viridescens_12_MRS broth_7","Logistic","r",0.194478470788803
+"Weissella viridescens_12_MRS broth_7","Logistic","K",608472744.909824
+"Weissella viridescens_12_MRS broth_7","Logistic","N0",66.6004182877423
+"Weissella viridescens_16_MRS broth_7","Quadratic","(Intercept)",3.16542046025394
+"Weissella viridescens_16_MRS broth_7","Quadratic","Time",0.431777741072609
+"Weissella viridescens_16_MRS broth_7","Quadratic","I(Time^2)",-0.00262027200075423
+"Weissella viridescens_16_MRS broth_7","Logistic","r",0.315798105927401
+"Weissella viridescens_16_MRS broth_7","Logistic","K",597798694.444379
+"Weissella viridescens_16_MRS broth_7","Logistic","N0",51.4699620350515
+"Weissella viridescens_20_MRS broth_7","Quadratic","(Intercept)",2.27663300209366
+"Weissella viridescens_20_MRS broth_7","Quadratic","Time",0.806863026332739
+"Weissella viridescens_20_MRS broth_7","Quadratic","I(Time^2)",-0.00838862552848336
+"Weissella viridescens_20_MRS broth_7","Logistic","r",0.557330346275606
+"Weissella viridescens_20_MRS broth_7","Logistic","K",1424207114.92471
+"Weissella viridescens_20_MRS broth_7","Logistic","N0",31.983305822497
+"Weissella viridescens_30_MRS broth_7","Quadratic","(Intercept)",3.26582629577882
+"Weissella viridescens_30_MRS broth_7","Quadratic","Time",1.34443387227171
+"Weissella viridescens_30_MRS broth_7","Quadratic","I(Time^2)",-0.0247473364298857
+"Weissella viridescens_30_MRS broth_7","Logistic","r",0.938562394972126
+"Weissella viridescens_30_MRS broth_7","Logistic","K",1315655057.22006
+"Weissella viridescens_30_MRS broth_7","Logistic","N0",64.6626467384979
+"Weissella viridescens_4_MRS broth_7","Quadratic","(Intercept)",3.33038787925935
+"Weissella viridescens_4_MRS broth_7","Quadratic","Time",0.0250426912270148
+"Weissella viridescens_4_MRS broth_7","Quadratic","I(Time^2)",-8.72921575072772e-06
+"Weissella viridescens_4_MRS broth_7","Logistic","r",0.0229321142389366
+"Weissella viridescens_4_MRS broth_7","Logistic","K",235991.11639031
+"Weissella viridescens_4_MRS broth_7","Logistic","N0",29.8723231983929
+"Weissella viridescens_8_MRS broth_7","Quadratic","(Intercept)",3.08699679586542
+"Weissella viridescens_8_MRS broth_7","Quadratic","Time",0.102159402711989
+"Weissella viridescens_8_MRS broth_7","Quadratic","I(Time^2)",-0.000155904790595809
+"Weissella viridescens_8_MRS broth_7","Logistic","r",0.0712886413667881
+"Weissella viridescens_8_MRS broth_7","Logistic","K",235201649.332731
+"Weissella viridescens_8_MRS broth_7","Logistic","N0",49.2618938747415
